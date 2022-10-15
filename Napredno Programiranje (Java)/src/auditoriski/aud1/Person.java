@@ -40,7 +40,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "auditoriski.aud1.Person{" +
+        return "auditoriski.aud1.Persons{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +

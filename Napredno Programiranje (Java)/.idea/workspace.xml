@@ -34,7 +34,8 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Matrix">
@@ -97,6 +98,7 @@
       <updated>1665842066348</updated>
       <workItem from="1665842067501" duration="193000" />
       <workItem from="1665842324029" duration="4557000" />
+      <workItem from="1665848480428" duration="16000" />
     </task>
     <servers />
   </component>
