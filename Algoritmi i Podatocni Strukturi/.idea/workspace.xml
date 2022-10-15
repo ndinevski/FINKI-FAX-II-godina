@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="" />
+    <list default="true" id="0eed56f5-cd3f-4c25-b505-a34600ac0e5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Napredno Programiranje 2022-23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Napredno Programiranje 2022-23/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GAr7tEDW7corP8vjhbL3sZRr2g" />
+  <component name="ProjectId" id="2GB0xKPwNivtSTDvF2vdovnPHub" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,22 +30,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Matrix">
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditoriski.aud2.Matrix" />
-      <module name="Napredno Programiranje 2022-23" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditoriski.aud1.Main" />
+      <module name="Algoritmi i Podatocni Strukturi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auditoriski.aud2.*" />
+          <option name="PATTERN" value="auditoriski.aud1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,52 +49,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditoriski.aud1.Person" />
-      <module name="Napredno Programiranje 2022-23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auditoriski.aud2.StringPrefix" />
-      <module name="Napredno Programiranje 2022-23" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditoriski.aud1.Main" />
+      <module name="Algoritmi i Podatocni Strukturi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="auditoriski.aud1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Napredno Programiranje 2022-23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.StringPrefix" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="" />
-      <created>1665842066348</created>
+      <changelist id="0eed56f5-cd3f-4c25-b505-a34600ac0e5d" name="Changes" comment="" />
+      <created>1665846918989</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665842066348</updated>
-      <workItem from="1665842067501" duration="193000" />
-      <workItem from="1665842324029" duration="4557000" />
+      <updated>1665846918989</updated>
+      <workItem from="1665846920274" duration="634000" />
     </task>
     <servers />
   </component>
