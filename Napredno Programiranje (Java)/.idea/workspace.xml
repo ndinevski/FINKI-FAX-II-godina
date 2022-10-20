@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,16 +36,43 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)"
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Matrix">
+  <component name="RunManager" selected="Application.Deck">
+    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditoriski.aud2.cards.Deck" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auditoriski.aud2.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="auditoriski.aud2.Lock" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="auditoriski.aud2.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="auditoriski.aud2.Matrix" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auditoriski.aud2.*" />
+          <option name="PATTERN" value="auditoriski.aud2.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,19 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Napredno Programiranje 2022-23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deck" />
+        <item itemvalue="Application.Lock" />
         <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.StringPrefix" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +121,7 @@
       <workItem from="1665842067501" duration="193000" />
       <workItem from="1665842324029" duration="4557000" />
       <workItem from="1665848480428" duration="16000" />
+      <workItem from="1666275033386" duration="4739000" />
     </task>
     <servers />
   </component>
