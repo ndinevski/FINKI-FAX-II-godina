@@ -16,7 +16,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,8 +40,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Algoritmi i Podatocni Strukturi (Java)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Deck">
@@ -126,6 +132,9 @@
       <workItem from="1666541328901" duration="29000" />
       <workItem from="1666548924763" duration="74000" />
       <workItem from="1666549098076" duration="1461000" />
+      <workItem from="1666630700993" duration="240000" />
+      <workItem from="1666630952422" duration="34000" />
+      <workItem from="1666630995073" duration="146000" />
     </task>
     <servers />
   </component>
