@@ -1,3 +1,21 @@
+//Дадени се две еднострано поврзани листи чии што јазли содржат по еден природен број. Треба да се спојат двете листи
+// во една резултантна на тој начин што наизменично прво ќе се додаваат првите два јазли од првата листа во резултантната,
+// па првите два од втората листа, па следните два од првата, па следните два од втората итн. Јазлите што ќе останат треба
+// да се додадат на крај во резултантната листа, прво оние што останале од првата листа, потоа оние што останале од втората листа.
+//Влез: Во првиот ред од влезот се дадени броевите од кои се составени јазлите по редослед во првата листа, а во вториот р
+// ед броевите од кои се составени јазлите по редослед во втората листа.
+//Излез: На излез треба да се испечатат јазлите по редослед во резултантната споена листа.
+//Внимавајте:
+//1. Даден е целосниот код на структурата којашто треба да се користи. Дадена е и тест класата SpecialSLLJoin.java, со
+// целосно имплементиран input и output. Потребно е да се менува само во рамки на void specialJoin(SLL<Integer> list1,
+// SLL<Integer> list2) функцијата.
+//2. Притоа, бришењето треба да биде имплементирано како бришење на цел јазол, а додавањето како додавање на цел јазол.
+// Промените (бришење/додавање елемент) не треба да се однесуваат на информациите во самите јазли туку во промени на врските
+// помеѓу јазлите.
+//
+//3. Не смее да менувате во main функцијата !
+
+
 package laboratoriski.lab2;
 import java.util.Scanner;
 
@@ -188,22 +206,18 @@ public class SpecialSLLJoin<E> {
     //todo: implement function
     public SLL<Integer> specialJoin(SLL<E> list1, SLL<E> list2) {
         SLL<Integer> mergedList = new SLL<Integer>();
-        while(list1.getFirst()!=null && list2.getFirst()!=null){
-//            if(list1.size() < 1){
-//                mergedList.insertLast((Integer) list1.getFirst().element);
-//                list1.deleteFirst();
-//                continue;
-//            }
-//            if(list2.size() < 1){
-//                mergedList.insertLast((Integer) list2.getFirst().element);
-//                list1.deleteFirst();
-//                break;
-//            }
+        while(list1.getFirst()!=null || list2.getFirst()!=null){
             for(int j=0;j<2;j++){
+                if(list1.size()==0){
+                    break;
+                }
                 mergedList.insertLast((Integer) list1.getFirst().element);
                 list1.deleteFirst();
             }
             for(int j=0;j<2;j++){
+                if(list2.size()==0){
+                    break;
+                }
                 mergedList.insertLast((Integer) list2.getFirst().element);
                 list2.deleteFirst();
             }
