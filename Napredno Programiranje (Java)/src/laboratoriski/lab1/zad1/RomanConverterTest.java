@@ -1,6 +1,6 @@
 //Да се напише метод кој ќе прима еден цел број и ќе ја печати неговата репрезентација како Римски број.
 
-package laboratoriski.lab1;
+package laboratoriski.lab1.zad1;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
