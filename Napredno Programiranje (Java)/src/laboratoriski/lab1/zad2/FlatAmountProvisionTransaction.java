@@ -22,12 +22,13 @@ public class FlatAmountProvisionTransaction extends Transaction{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         FlatAmountProvisionTransaction that = (FlatAmountProvisionTransaction) o;
         return Objects.equals(flatProvision, that.flatProvision);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(flatProvision);
+        return Objects.hash(super.hashCode(), flatProvision);
     }
 }

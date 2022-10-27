@@ -11,9 +11,6 @@ public class Bank {
     int fromAccountIndex, toAccountIndex;
     double currentAmount;
 
-    public Bank() {
-    }
-
     public Bank(String name, Account[] accounts) {
         this.name = name;
         this.accounts = accounts;
@@ -45,10 +42,7 @@ public class Bank {
         if(flag != 2){//ako ne se pronajdeni dva akaunti
             return false;
         }
-//
-//        if(t.getAmountInDouble() > Double.parseDouble(accounts[fromAccountIndex].getBalance()){
-//            return false;
-//        }
+
         currentAmount = accounts[fromAccountIndex].getBalanceInDouble();
         if(t.getAmountInDouble() + t.getProvision() > currentAmount){
             return false;
@@ -83,7 +77,7 @@ public class Bank {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Bank bank = (Bank) o;
-        return Double.compare(bank.transferTotal, transferTotal) == 0 && Double.compare(bank.provisionTotal, provisionTotal) == 0 && fromAccountIndex == bank.fromAccountIndex && toAccountIndex == bank.toAccountIndex && Double.compare(bank.currentAmount, currentAmount) == 0 && Objects.equals(name, bank.name) && Arrays.equals(accounts, bank.accounts);
+        return Double.compare(bank.transferTotal, transferTotal) == 0 && Double.compare(bank.provisionTotal, provisionTotal) == 0 && Objects.equals(name, bank.name) && Arrays.equals(accounts, bank.accounts);
     }
 
     @Override
