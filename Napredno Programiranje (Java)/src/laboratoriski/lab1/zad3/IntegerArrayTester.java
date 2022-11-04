@@ -1,3 +1,37 @@
+//Да се напише класа која чува низа на цели броеви IntegerArray. Класата треба да е immutable. Тоа значи дека,
+// откако еднаш ќе се инстанцира да не може да се менува состојбата на објектот, односно да не може да се менуваат
+// податоците зачувани во него и да не може да се наследува од неа final. За потребите на класата треба да се
+// имплементираат следните public методи:
+//IntegerArray(int a[]) - конструктор кој прима низа од цели броеви
+//length():int - метод кој ја враќа должината на низата
+//getElementAt(int i):int - го враќа елементот на позиција i, може да претпоставите дека индекост i секогаш ќе има
+// вредност во интервалот [0,length()-1]
+//sum():int - метод кој ја враќа сумата на сите елемeнти во низата
+//average():double - метод кој ја враќа средната вредност на елементите во низата - аритметичка средина
+//getSorted():IntegerArray- враќа нов објект од истата класа кој ги содржи истите вредности од тековниот објект,
+// но сортирани во растечки редослед
+//concat(IntegerArray ia):IntegerArray - враќа нов објект од истата класа во кој се содржат сите елементи од this
+// објектот и по нив сите елементи од ia објектот притоа запазувајќи го нивниот редослед
+//toString():String - враќа текстуална репрезентација на објектот каде елементите се одделени со запиркa и едно
+// празно место после запирката и на почетокот и крајот на стрингот има средни загради. Пример за низа која ги
+// содржи боревите 2,1 и 4 враќа "[2, 1, 4]".
+//Покрај класата IntegerArray треба да напишете дополнително уште една класа која ќе служи за вчитување на низа
+// од цели броеви од влезен тек на податоци. Оваа класа треба да се вика ArrayReader и во неа треба да имате еден
+// public static метод за вчитување на низа од цели броеви од InputStream.
+//readIntegerArray(InputStream input):IntegerArray - вчитува низа од цели броеви од input зададена во следниот
+// формат: Во првата линија има еден цел борј кој кажува колку елементи има во низата, а во наредниот ред се
+// дадени елементите на низата одделени со едно или повеќе празни места. Помош, искористете ја класата
+// java.util.Scanner.
+//Секогаш кога работите со низи во Java можете да искористите дел од методите во класата Arrays. За да пристапите
+// до класата најпрвин треба да ја импортирате со следнава наредба
+//import java.util.Arrays;
+//Во продолжение се дадени дел од методите кои можат да ви помогнат. За тоа како работат консултираје ја нивната
+// документација.
+//copyOf(int[] original, int newLength)
+//equals(int[] a, int[] a2)
+//sort(int[] a)
+
+
 package laboratoriski.lab1.zad3;
 
 import java.io.ByteArrayInputStream;
@@ -44,7 +78,11 @@ public class IntegerArrayTester {
                 testSimpleMethods(ia);
                 a[0] += 2;
                 testSimpleMethods(ia);
-                ia = ArrayReader.readIntegerArray(new ByteArrayInputStream(integerArrayToString(ia).getBytes()));
+                try {
+                    ia = ArrayReader.readIntegerArray(new ByteArrayInputStream(integerArrayToString(ia).getBytes()));
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
                 testSimpleMethods(ia);
                 break;
         }
@@ -52,7 +90,12 @@ public class IntegerArrayTester {
     }
 
     static void testReading(InputStream in) {
-        IntegerArray read = ArrayReader.readIntegerArray(in);
+        IntegerArray read = null;
+        try {
+            read = ArrayReader.readIntegerArray(in);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println(read);
     }
 
@@ -155,7 +198,8 @@ final class IntegerArray{
     }
 
     public IntegerArray getSorted(){
-        int [] b = a;
+        int [] b = new int[a.length];
+        System.arraycopy(this.getA(),0,b,0,this.length());
         Arrays.sort(b);
         IntegerArray newObj = new IntegerArray(b);
         return newObj;
@@ -164,7 +208,11 @@ final class IntegerArray{
     public IntegerArray concat(IntegerArray ia){
         int [] newArray = new int[ia.length()+this.length()];
         System.arraycopy(this.getA(),0,newArray,0,this.length());
-        System.arraycopy(ia.getA(),0,newArray,this.length(),newArray.length);
+        int j=0;
+        for(int i=0;i<ia.length();i++){
+            newArray[i+this.length()]=ia.getElementAt(j);
+            j++;
+        }
         IntegerArray newObj = new IntegerArray(newArray);
         return newObj;
     }
@@ -178,18 +226,30 @@ final class IntegerArray{
         sb.append(getElementAt(length()-1)).append("]");
         return sb.toString();
     }
-}
 
-class ArrayReader{
-    public ArrayReader() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        IntegerArray that = (IntegerArray) o;
+        return Arrays.equals(a, that.a);
     }
-    public static IntegerArray readIntegerArray(InputStream input) throws IOException {
-        int n = (int) input.read();
-        int [] array = new int[n];
-        for(int i=0;i<n;i++){
-            array[i] = (int)input.read();
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(a);
+    }
+}
+class ArrayReader {
+    public static IntegerArray readIntegerArray(InputStream input) throws IOException{
+        Scanner sc = new Scanner(input);
+        int n = sc.nextInt();
+        int[] array = new int[n];
+        for (int i=0; i<n; i++){
+            array[i] = sc.nextInt();
         }
-        IntegerArray newObj = new IntegerArray(array);
-        return newObj;
+        sc.close();
+        IntegerArray ia = new IntegerArray(array);
+        return ia;
     }
 }
