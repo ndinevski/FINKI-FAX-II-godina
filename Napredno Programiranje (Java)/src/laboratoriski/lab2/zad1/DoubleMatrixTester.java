@@ -321,7 +321,7 @@ final class DoubleMatrix{
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 b[k]=this.matrix[i][j];
-                k++
+                k++;
             }
         }
         Arrays.sort(b);
