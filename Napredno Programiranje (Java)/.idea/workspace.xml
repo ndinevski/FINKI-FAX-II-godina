@@ -46,13 +46,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IntegerArrayTester (4)">
-    <configuration name="IntegerArrayTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab1.zad3.IntegerArrayTester" />
+  <component name="RunManager" selected="Application.DoubleMatrixTester (3)">
+    <configuration name="DoubleMatrixTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab1.zad3.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab1.zad3.IntegerArrayTester" />
+    <configuration name="DoubleMatrixTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab1.zad3.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTester (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab1.zad3.IntegerArrayTester" />
+    <configuration name="DoubleMatrixTester (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab1.zad3.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleMatrixTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab1.zad3.IntegerArrayTester" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laboratoriski.lab1.zad3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleMatrixTester (3)" />
+        <item itemvalue="Application.DoubleMatrixTester (2)" />
+        <item itemvalue="Application.DoubleMatrixTester (1)" />
+        <item itemvalue="Application.DoubleMatrixTester" />
         <item itemvalue="Application.IntegerArrayTester (4)" />
-        <item itemvalue="Application.IntegerArrayTester" />
-        <item itemvalue="Application.IntegerArrayTester (3)" />
-        <item itemvalue="Application.IntegerArrayTester (2)" />
-        <item itemvalue="Application.IntegerArrayTester (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +148,7 @@
       <workItem from="1666864427680" duration="5573000" />
       <workItem from="1667396021761" duration="47000" />
       <workItem from="1667505468541" duration="125000" />
-      <workItem from="1667572568725" duration="2093000" />
+      <workItem from="1667572568725" duration="6598000" />
     </task>
     <servers />
   </component>
