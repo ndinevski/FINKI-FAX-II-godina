@@ -46,13 +46,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DoubleMatrixTester (3)">
-    <configuration name="DoubleMatrixTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="laboratoriski.lab2.zad2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ContactsTester (3)">
+    <configuration name="ContactsTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad2.ContactsTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleMatrixTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
+    <configuration name="ContactsTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad2.ContactsTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleMatrixTester (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
+    <configuration name="ContactsTester (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad2.ContactsTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleMatrixTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad1.DoubleMatrixTester" />
+    <configuration name="ContactsTester (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad2.ContactsTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab2.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTester (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab1.zad3.IntegerArrayTester" />
+    <configuration name="ContactsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab2.zad2.ContactsTester" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab1.zad3.*" />
+          <option name="PATTERN" value="laboratoriski.lab2.zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoubleMatrixTester (3)" />
-        <item itemvalue="Application.DoubleMatrixTester (2)" />
-        <item itemvalue="Application.DoubleMatrixTester (1)" />
-        <item itemvalue="Application.DoubleMatrixTester" />
-        <item itemvalue="Application.IntegerArrayTester (4)" />
+        <item itemvalue="Application.ContactsTester (3)" />
+        <item itemvalue="Application.ContactsTester (2)" />
+        <item itemvalue="Application.ContactsTester" />
+        <item itemvalue="Application.ContactsTester (1)" />
+        <item itemvalue="Application.ContactsTester (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +153,8 @@
       <workItem from="1666864427680" duration="5573000" />
       <workItem from="1667396021761" duration="47000" />
       <workItem from="1667505468541" duration="125000" />
-      <workItem from="1667572568725" duration="6630000" />
+      <workItem from="1667572568725" duration="6675000" />
+      <workItem from="1667813251532" duration="7985000" />
     </task>
     <servers />
   </component>
@@ -173,6 +179,15 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab2/zad2/ContactsTester.java</url>
+          <line>395</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
