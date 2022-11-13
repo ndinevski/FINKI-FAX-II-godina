@@ -19,10 +19,7 @@
 
 package laboratoriski.lab5.zad3;
 
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 class Gragjanin{
     private String imePrezime;
@@ -33,6 +30,14 @@ class Gragjanin{
         this.lKarta = lKarta;
         this.pasos = pasos;
         this.vozacka = vozacka;
+    }
+
+    public int numberOfQueues(){
+        return lKarta + pasos + vozacka;
+    }
+
+    public String getImePrezime() {
+        return imePrezime;
     }
 
     public int getlKarta() {
@@ -77,34 +82,78 @@ class Gragjanin{
 
 public class MVR {
 
-    public static Queue<String> novaRedica(Gragjanin [] lugje){
-        Queue<Gragjanin> kartaRedica = new LinkedList<>();
-        Queue<Gragjanin> pasosRedica = new LinkedList<>();
-        Queue<Gragjanin> vozackaRedica = new LinkedList<>();
+    public static ArrayList<Gragjanin> sortRedici(ArrayList<Gragjanin> redica) {
+        ArrayList<Gragjanin> sorted = new ArrayList<>();
+        int size = redica.size();
 
-        for(int i=0;i<lugje.length;i++) {
-            if (lugje[i].getlKarta() == 1) {
-                kartaRedica.add(lugje[i]);
+        for (int i = 0; i < redica.size(); i++) {
+            if (redica.get(i).getlKarta() == 1) {
+                sorted.add(redica.get(i));
             }
-            if(lugje[i].getPasos()==1 && lugje[i].getlKarta()==0){
-                pasosRedica.add(lugje[i]);
-            }
-            if(lugje[i].getVozacka()==1 && lugje[i].getPasos()==0 && lugje[i].getVozacka()==0){
-                vozackaRedica.add(lugje[i]);
+            if(size == sorted.size()){
+                return sorted;
             }
         }
-
-
+        for (int i = 0; i < redica.size(); i++) {
+            if (redica.get(i).getPasos() == 1) {
+                sorted.add(redica.get(i));
+            }
+            if(size == sorted.size()){
+                return sorted;
+            }
+        }
+        for (int i = 0; i < redica.size(); i++) {
+            if (redica.get(i).getVozacka() == 1) {
+                sorted.add(redica.get(i));
+            }
+            if(size == sorted.size()){
+                return sorted;
+            }
+        }
+        return sorted;
     }
 
 
+    public static ArrayList<Gragjanin> novaRedica(ArrayList<Gragjanin> lugje) {
+        ArrayList<Gragjanin> novaRedica = new ArrayList<>();
+        ArrayList<Gragjanin> gragjaniSoEdna = new ArrayList<>();
+        ArrayList<Gragjanin> gragjaniSoDve = new ArrayList<>();
+        ArrayList<Gragjanin> gragjaniSoTri = new ArrayList<>();
 
+
+        for (int i = 0; i < lugje.size(); i++) {
+            if (lugje.get(i).numberOfQueues() == 1) {
+                gragjaniSoEdna.add(lugje.get(i));
+            } else if (lugje.get(i).numberOfQueues() == 2) {
+                gragjaniSoDve.add(lugje.get(i));
+            } else {
+                gragjaniSoTri.add(lugje.get(i));
+            }
+        }
+        gragjaniSoEdna = sortRedici(gragjaniSoEdna);
+        gragjaniSoDve = sortRedici(gragjaniSoDve);
+        gragjaniSoTri = sortRedici(gragjaniSoTri);
+
+        while (gragjaniSoEdna.size() != 0) {
+            novaRedica.add(gragjaniSoEdna.get(0));
+            gragjaniSoEdna.remove(gragjaniSoEdna.get(0));
+        }
+        while (gragjaniSoDve.size() != 0) {
+            novaRedica.add(gragjaniSoDve.get(0));
+            gragjaniSoDve.remove(gragjaniSoDve.get(0));
+        }
+        while (gragjaniSoTri.size() != 0) {
+            novaRedica.add(gragjaniSoTri.get(0));
+            gragjaniSoTri.remove(gragjaniSoTri.get(0));
+        }
+        return novaRedica;
+    }
     public static void main(String[] args) {
 
         Scanner br = new Scanner(System.in);
 
         int N = Integer.parseInt(br.nextLine());
-        Gragjanin [] lugje = new Gragjanin[N];
+        ArrayList<Gragjanin> lugje = new ArrayList<>();
 
         for(int i=1;i<=N;i++){
             String imePrezime = br.nextLine();
@@ -112,7 +161,15 @@ public class MVR {
             int pasos = Integer.parseInt(br.nextLine());
             int vozacka = Integer.parseInt(br.nextLine());
             Gragjanin covek = new Gragjanin(imePrezime,lKarta,pasos,vozacka);
-            lugje[i] = covek;
+            lugje.add(covek);
         }
-
+        lugje = novaRedica(lugje);
+        for(int i=0;i< lugje.size();i++){
+            System.out.println(lugje.get(i).getImePrezime());
+        }
     }
+}
+
+
+
+
