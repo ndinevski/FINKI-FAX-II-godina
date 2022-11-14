@@ -32,9 +32,9 @@ public class OddEvenSort {
             }
         }
 
-        for(int i=0;i<n-1;i++)
-            System.out.print(nova[i]+" ");
-        System.out.print(nova[n-1]);
+        for(int i=0;i<nova.length;i++){
+            a[i] = nova[i];
+        }
     }
 
     public static void main(String[] args) throws IOException{
@@ -49,5 +49,8 @@ public class OddEvenSort {
         for(i=0;i<n;i++)
             a[i]=Integer.parseInt(pom[i]);
         oddEvenSort(a,n);
+        for(i=0;i<n-1;i++)
+            System.out.print(a[i]+" ");
+        System.out.print(a[i]);
     }
 }
