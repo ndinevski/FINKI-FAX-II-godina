@@ -19,6 +19,8 @@
 
 package laboratoriski.lab5.zad3;
 
+import auditoriski.aud2.Array;
+
 import java.util.*;
 
 class Gragjanin{
@@ -82,72 +84,56 @@ class Gragjanin{
 
 public class MVR {
 
-    public static ArrayList<Gragjanin> sortRedici(ArrayList<Gragjanin> redica) {
-        ArrayList<Gragjanin> sorted = new ArrayList<>();
-        int size = redica.size();
 
-        for (int i = 0; i < redica.size(); i++) {
-            if (redica.get(i).getlKarta() == 1) {
-                sorted.add(redica.get(i));
-            }
-            if(size == sorted.size()){
-                return sorted;
-            }
-        }
-        for (int i = 0; i < redica.size(); i++) {
-            if (redica.get(i).getPasos() == 1) {
-                sorted.add(redica.get(i));
-            }
-            if(size == sorted.size()){
-                return sorted;
-            }
-        }
-        for (int i = 0; i < redica.size(); i++) {
-            if (redica.get(i).getVozacka() == 1) {
-                sorted.add(redica.get(i));
-            }
-            if(size == sorted.size()){
-                return sorted;
+    public static ArrayList<Gragjanin> novaRedica(ArrayList<Gragjanin> lugje){
+        ArrayList<Gragjanin> redicaKarta = new ArrayList<>();
+        ArrayList<Gragjanin> redicaPasos = new ArrayList<>();
+        ArrayList<Gragjanin> redicaVozacka = new ArrayList<>();
+        ArrayList<Gragjanin> redica = new ArrayList<>();
+
+        for(int i=0;i<lugje.size();i++){
+            if(lugje.get(i).getlKarta()==1){
+                redicaKarta.add(lugje.get(i));
+                continue;
+            }else if(lugje.get(i).getPasos()==1){
+                redicaPasos.add(lugje.get(i));
+                continue;
+            }else{
+                redicaVozacka.add(lugje.get(i));
+                continue;
             }
         }
-        return sorted;
+
+        for(int i=0;i<redicaKarta.size();i++){
+            if(redicaKarta.get(i).getPasos()==1){
+                redicaPasos.add(redicaKarta.get(i));
+                continue;
+            }else if(redicaKarta.get(i).getVozacka()==1){
+                redicaVozacka.add(redicaKarta.get(i));
+                continue;
+            }else{
+                redica.add(redicaKarta.get(i));
+            }
+        }
+
+        for(int i=0;i<redicaPasos.size();i++){
+            if(redicaPasos.get(i).getVozacka()==1){
+                redicaVozacka.add(redicaPasos.get(i));
+                continue;
+            }else{
+                redica.add(redicaPasos.get(i));
+            }
+        }
+
+        for(int i=0;i<redicaVozacka.size();i++){
+            redica.add(redicaVozacka.get(i));
+        }
+
+
+
+        return redica;
     }
 
-
-    public static ArrayList<Gragjanin> novaRedica(ArrayList<Gragjanin> lugje) {
-        ArrayList<Gragjanin> novaRedica = new ArrayList<>();
-        ArrayList<Gragjanin> gragjaniSoEdna = new ArrayList<>();
-        ArrayList<Gragjanin> gragjaniSoDve = new ArrayList<>();
-        ArrayList<Gragjanin> gragjaniSoTri = new ArrayList<>();
-
-
-        for (int i = 0; i < lugje.size(); i++) {
-            if (lugje.get(i).numberOfQueues() == 1) {
-                gragjaniSoEdna.add(lugje.get(i));
-            } else if (lugje.get(i).numberOfQueues() == 2) {
-                gragjaniSoDve.add(lugje.get(i));
-            } else {
-                gragjaniSoTri.add(lugje.get(i));
-            }
-        }
-        gragjaniSoEdna = sortRedici(gragjaniSoEdna);
-        gragjaniSoDve = sortRedici(gragjaniSoDve);
-        gragjaniSoTri = sortRedici(gragjaniSoTri);
-
-        while (gragjaniSoEdna.size() != 0) {
-            novaRedica.add(gragjaniSoEdna.get(0));
-            gragjaniSoEdna.remove(gragjaniSoEdna.get(0));
-        }
-        while (gragjaniSoDve.size() != 0) {
-            novaRedica.add(gragjaniSoDve.get(0));
-            gragjaniSoDve.remove(gragjaniSoDve.get(0));
-        }
-        while (gragjaniSoTri.size() != 0) {
-            novaRedica.add(gragjaniSoTri.get(0));
-            gragjaniSoTri.remove(gragjaniSoTri.get(0));
-        }
-        return novaRedica;
-    }
     public static void main(String[] args) {
 
         Scanner br = new Scanner(System.in);
