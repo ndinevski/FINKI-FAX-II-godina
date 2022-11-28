@@ -149,11 +149,11 @@ class F1Race {
 
     public void printSorted(OutputStream outputStream){
         List<Racer> ordered = racers.stream()
-                .sorted(Comparator.comparing(Racer::getName))
+                .sorted(Comparator.comparing(Racer::getBestTime))
                 .collect(Collectors.toList());
 
         for(int i=0;i< ordered.size();i++){
-            System.out.print((i+1) + ". " + ordered.get(i).getName()+ "          " + ordered.get(i).bestLap() + "\n");
+            System.out.printf("%d. %-11s %s \n",  i + 1, ordered.get(i).getName(), ordered.get(i).bestLap());
         }
     }
 
