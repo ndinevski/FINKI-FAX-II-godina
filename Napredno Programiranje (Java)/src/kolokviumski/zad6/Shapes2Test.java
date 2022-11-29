@@ -15,9 +15,7 @@ public class Shapes2Test {
         System.out.println("===READING CANVASES AND SHAPES FROM INPUT STREAM===");
         try {
             shapesApplication.readCanvases(System.in);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (IrregularCanvasException e) {
+        } catch (IOException | IrregularCanvasException e) {
             throw new RuntimeException(e);
         }
 
@@ -122,15 +120,15 @@ class Canvases{
     }
 
     public Double getAverageArea(){
-        OptionalDouble a = shapes.stream()
+        return shapes.stream()
                 .mapToDouble(Shapes::getArea)
-                .average();
-        return a.getAsDouble();
+                .average()
+                .orElseThrow(NoSuchElementException::new);
     }
 
     public Double getSum(){
         Double d = shapes.stream()
-                .mapToDouble(p-> p.getArea())
+                .mapToDouble(Shapes::getArea)
                 .sum();
         return d;
     }
@@ -188,11 +186,13 @@ class ShapesApplication{
         }
     }
 
-    public void printCanvases(PrintStream out) {
+    public void printCanvases(OutputStream out) {
+        PrintWriter pw = new PrintWriter(out);
+
         List<Canvases> ordered = canvases.stream()
-                .sorted(Comparator.comparing(Canvases::getSum).reversed())
-                .collect(Collectors.toList());
+                .sorted(Comparator.comparing(Canvases::getSum).reversed()).toList();
         IntStream.range(0, ordered.size())
-                .forEach( i-> System.out.println(ordered.get(i).toString()));
+                .forEach( i-> pw.println(ordered.get(i).toString()));
+        pw.flush();
     }
 }
