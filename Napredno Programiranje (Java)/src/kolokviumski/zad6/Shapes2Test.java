@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 public class Shapes2Test {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         ShapesApplication shapesApplication = new ShapesApplication(10000);
 
@@ -17,12 +17,21 @@ public class Shapes2Test {
             shapesApplication.readCanvases(System.in);
         } catch (IOException e) {
             throw new RuntimeException(e);
+        } catch (IrregularCanvasException e) {
+            throw new RuntimeException(e);
         }
 
         System.out.println("===PRINTING SORTED CANVASES TO OUTPUT STREAM===");
         shapesApplication.printCanvases(System.out);
 
 
+    }
+}
+
+class IrregularCanvasException extends Exception{
+
+    public IrregularCanvasException(String id, Double maxArea){
+        super("Canvas " + id + " has a shape with area larger than 10000.00");
     }
 }
 
@@ -135,31 +144,47 @@ class Canvases{
 }
 
 class ShapesApplication{
-    private Double maxArea;
+    private static double maxArea;
     private ArrayList<Canvases> canvases = new ArrayList<Canvases>();
 
     public ShapesApplication(double maxArea){
         this.maxArea = maxArea;
     }
 
+    public static double getMaxArea() {
+        return maxArea;
+    }
 
-    public void readCanvases(InputStream in) throws IOException {
+    public void readCanvases(InputStream in) throws IOException, IrregularCanvasException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(in));
         String line;
         while((line = bf.readLine())!=null && line.length()!=0){
             String [] parts = line.split("\\s+");
             String id = parts[0];
             ArrayList<Shapes> shapes = new ArrayList<>();
-            for(int i=1;i< parts.length;i++){
-                if(i%2==1){
-                    if(parts[i].equals("C")){
-                        shapes.add(new Circle(Integer.parseInt(parts[i+1])));
-                    }else if (parts[i].equals("S")){
-                        shapes.add(new Square(Integer.parseInt(parts[i+1])));
+            int flag=1;
+
+            for (int i = 1; i < parts.length; i++) {
+                try {
+                    if (i % 2 == 1) {
+                        if (parts[i].equals("C")) {
+                            shapes.add(new Circle(Integer.parseInt(parts[i + 1])));
+                        } else if (parts[i].equals("S")) {
+                            shapes.add(new Square(Integer.parseInt(parts[i + 1])));
+                        }
+                        if(shapes.get(shapes.size()-1).getArea() > maxArea){
+                            throw new IrregularCanvasException(id, maxArea);
+                        }
                     }
+                }catch(IrregularCanvasException e){
+                    flag=0;
+                    System.out.println(e.getMessage());
                 }
             }
-            canvases.add(new Canvases(id, shapes));
+
+            if(flag==1) {
+                canvases.add(new Canvases(id, shapes));
+            }
         }
     }
 
