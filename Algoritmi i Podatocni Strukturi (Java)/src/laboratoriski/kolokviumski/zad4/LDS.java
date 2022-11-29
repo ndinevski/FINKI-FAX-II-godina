@@ -8,10 +8,20 @@ import java.util.Scanner;
 public class LDS {
 
 
-    private static int najdolgaOpagackaSekvenca(int[] a) {
-        // Vasiot kod tuka
+    private static int calculate(int[] a) {
+        int dp[] = new int[a.length];
 
-        return 0;
+        int ans = 0;
+        for (int i = 0; i < dp.length; i++) {
+            int max = 0;
+            for (int j = 0; j < i; j++) {
+                if(a[j] > a[i]) max = Math.max(max, dp[j]);
+            }
+            dp[i] = max + 1;
+            ans = Math.max(ans, dp[i]);
+        }
+
+        return ans;
     }
 
     public static void main(String[] args) {
@@ -22,7 +32,7 @@ public class LDS {
         for (int i = 0; i < a.length; i++) {
             a[i] = stdin.nextInt();
         }
-        System.out.println(najdolgaOpagackaSekvenca(a));
+        System.out.println(calculate(a));
     }
 
 
