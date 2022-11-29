@@ -70,9 +70,8 @@ class ExtraItem implements Item{
     public ExtraItem(String type) throws InvalidExtraTypeException {
         if(!type.equals("Ketchup") || !type.equals("Coke")){
             throw new InvalidExtraTypeException();
-        }else {
-            this.type = type;
         }
+        this.type = type;
     }
 
     public String getType() {
