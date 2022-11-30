@@ -159,7 +159,7 @@
       <workItem from="1668097461061" duration="3830000" />
       <workItem from="1668196306978" duration="11000" />
       <workItem from="1669656492148" duration="14634000" />
-      <workItem from="1669813986538" duration="11839000" />
+      <workItem from="1669813986538" duration="12454000" />
     </task>
     <servers />
   </component>
@@ -207,11 +207,6 @@
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
           <line>67</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
