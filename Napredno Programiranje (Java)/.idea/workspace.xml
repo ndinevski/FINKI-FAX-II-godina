@@ -52,13 +52,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shapes2Test (5)">
-    <configuration name="Shapes2Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad6.Shapes2Test" />
+  <component name="RunManager" selected="Application.FrontPageTest">
+    <configuration name="FrontPageTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad7.FrontPageTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad6.*" />
+          <option name="PATTERN" value="kolokviumski.zad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +66,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shapes2Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad6.Shapes2Test" />
+    <configuration name="FrontPageTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad7.FrontPageTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad6.*" />
+          <option name="PATTERN" value="kolokviumski.zad7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontPageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad7.FrontPageTest" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kolokviumski.zad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shapes2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad6.Shapes2Test" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.zad6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrontPageTest" />
+        <item itemvalue="Application.FrontPageTest (2)" />
+        <item itemvalue="Application.FrontPageTest (1)" />
         <item itemvalue="Application.Shapes2Test (5)" />
         <item itemvalue="Application.Shapes2Test (4)" />
-        <item itemvalue="Application.Shapes2Test (3)" />
-        <item itemvalue="Application.Shapes2Test (2)" />
-        <item itemvalue="Application.Shapes2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +159,7 @@
       <workItem from="1668097461061" duration="3830000" />
       <workItem from="1668196306978" duration="11000" />
       <workItem from="1669656492148" duration="14634000" />
+      <workItem from="1669813986538" duration="3456000" />
     </task>
     <servers />
   </component>
