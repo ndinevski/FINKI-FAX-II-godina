@@ -49,16 +49,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kolokviumski.zad15" />
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoggerTest">
-    <configuration name="EvaluatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad18.EvaluatorTest" />
+  <component name="RunManager" selected="Application.GenericFractionTest (5)">
+    <configuration name="GenericFractionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad18.*" />
+          <option name="PATTERN" value="kolokviumski.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad8.LoggerTest" />
+    <configuration name="GenericFractionTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad8.*" />
+          <option name="PATTERN" value="kolokviumski.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MojDDVTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad21.MojDDVTest" />
+    <configuration name="GenericFractionTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad21.*" />
+          <option name="PATTERN" value="kolokviumski.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MojDDVTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad21.MojDDVTest" />
+    <configuration name="GenericFractionTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad21.*" />
+          <option name="PATTERN" value="kolokviumski.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MojDDVTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad21.MojDDVTest" />
+    <configuration name="GenericFractionTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad21.*" />
+          <option name="PATTERN" value="kolokviumski.zad11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoggerTest" />
-        <item itemvalue="Application.EvaluatorTest" />
-        <item itemvalue="Application.MojDDVTest (1)" />
-        <item itemvalue="Application.MojDDVTest (3)" />
-        <item itemvalue="Application.MojDDVTest (2)" />
+        <item itemvalue="Application.GenericFractionTest (5)" />
+        <item itemvalue="Application.GenericFractionTest (4)" />
+        <item itemvalue="Application.GenericFractionTest (3)" />
+        <item itemvalue="Application.GenericFractionTest (2)" />
+        <item itemvalue="Application.GenericFractionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +161,7 @@
       <workItem from="1668196306978" duration="11000" />
       <workItem from="1669656492148" duration="14634000" />
       <workItem from="1669813986538" duration="12454000" />
+      <workItem from="1669901756739" duration="13622000" />
     </task>
     <servers />
   </component>
@@ -259,6 +261,51 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad10/TripleTest.java</url>
+          <line>9</line>
+          <properties class="kolokviumski.zad10.TripleTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
+          <line>51</line>
+          <properties class="kolokviumski.zad11.GenericFraction" method="add">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
+          <line>61</line>
+          <properties class="kolokviumski.zad11.GenericFraction" method="NZD">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
+          <line>75</line>
+          <properties class="kolokviumski.zad11.GenericFraction" method="toDouble">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
+          <line>80</line>
+          <properties class="kolokviumski.zad11.GenericFraction" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
