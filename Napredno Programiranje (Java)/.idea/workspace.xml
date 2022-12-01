@@ -161,7 +161,7 @@
       <workItem from="1668196306978" duration="11000" />
       <workItem from="1669656492148" duration="14634000" />
       <workItem from="1669813986538" duration="12454000" />
-      <workItem from="1669901756739" duration="13622000" />
+      <workItem from="1669901756739" duration="13963000" />
     </task>
     <servers />
   </component>
@@ -270,42 +270,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
-          <line>51</line>
-          <properties class="kolokviumski.zad11.GenericFraction" method="add">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
-          <line>61</line>
-          <properties class="kolokviumski.zad11.GenericFraction" method="NZD">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
-          <line>75</line>
-          <properties class="kolokviumski.zad11.GenericFraction" method="toDouble">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad11/GenericFractionTest.java</url>
-          <line>80</line>
-          <properties class="kolokviumski.zad11.GenericFraction" method="toString">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
