@@ -53,13 +53,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericFractionTest (5)">
-    <configuration name="GenericFractionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
+  <component name="RunManager" selected="Application.ShapesTest">
+    <configuration name="ShapesTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad11.*" />
+          <option name="PATTERN" value="kolokviumski.zad14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericFractionTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
+    <configuration name="ShapesTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad11.*" />
+          <option name="PATTERN" value="kolokviumski.zad14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericFractionTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
+    <configuration name="ShapesTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad11.*" />
+          <option name="PATTERN" value="kolokviumski.zad14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericFractionTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
+    <configuration name="ShapesTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad11.*" />
+          <option name="PATTERN" value="kolokviumski.zad14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericFractionTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad11.GenericFractionTest" />
+    <configuration name="ShapesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad11.*" />
+          <option name="PATTERN" value="kolokviumski.zad14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericFractionTest (5)" />
-        <item itemvalue="Application.GenericFractionTest (4)" />
-        <item itemvalue="Application.GenericFractionTest (3)" />
-        <item itemvalue="Application.GenericFractionTest (2)" />
-        <item itemvalue="Application.GenericFractionTest (1)" />
+        <item itemvalue="Application.ShapesTest" />
+        <item itemvalue="Application.ShapesTest (5)" />
+        <item itemvalue="Application.ShapesTest (4)" />
+        <item itemvalue="Application.ShapesTest (3)" />
+        <item itemvalue="Application.ShapesTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -263,13 +263,40 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad10/TripleTest.java</url>
-          <line>9</line>
-          <properties class="kolokviumski.zad10.TripleTest" method="main">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad15/DailyTemperatureTest.java</url>
+          <line>47</line>
+          <properties class="kolokviumski.zad15.Day" method="createDay">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad13/MinAndMax.java</url>
+          <line>5</line>
+          <properties class="kolokviumski.zad13.MinAndMax" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad14/ShapesTest.java</url>
+          <line>163</line>
+          <properties class="kolokviumski.zad14.Canvas" method="add">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/zad14/ShapesTest.java</url>
+          <line>178</line>
+          <properties class="kolokviumski.zad14.Canvas" method="add">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

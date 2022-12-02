@@ -58,7 +58,8 @@ class Schedulers {
                 return Arrays.stream(tasks).sorted(Comparator.comparing(Task::getOrder)).collect(Collectors.toList());
             }
         };
-//        p ->{
+
+//        TaskScheduler<Task> scheduler = p->{
 //            return Arrays.stream(p).sorted(Comparator.comparing(Task::getOrder)).collect(Collectors.toList());
 //        };
         return (TaskScheduler<T>) scheduler;

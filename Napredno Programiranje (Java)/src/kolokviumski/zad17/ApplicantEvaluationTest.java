@@ -1,4 +1,4 @@
-package kolokviumski.zad15;
+package kolokviumski.zad17;
 
 import java.util.Scanner;
 

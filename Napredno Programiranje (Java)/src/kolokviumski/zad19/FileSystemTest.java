@@ -207,15 +207,7 @@ class FileSystem{
         root.sortBySize();
     }
 
-//    @Override
-//    public String toString() {
-//        StringBuilder sb = new StringBuilder();
-//        sb.append(String.format("Folder name: %10s Folder size: %10s\n", root.getFileName(), root.getFileSize()));
-//        for(int i=0;i<root.files.size();i++){
-//            sb.append(root.files.get(i));
-//        }
-//        return sb.toString();
-//    }
+
     @Override
     public String toString() {
         return root.getFileInfo("");
