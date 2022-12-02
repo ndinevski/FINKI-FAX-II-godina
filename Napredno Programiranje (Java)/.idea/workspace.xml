@@ -53,13 +53,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaOrderTest">
-    <configuration name="PizzaOrderTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
+  <component name="RunManager" selected="Application.IntegerListTest">
+    <configuration name="ComplexNumberTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab5.zad1.ComplexNumberTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab5.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaOrderTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
+    <configuration name="ComplexNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab5.zad1.ComplexNumberTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab5.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaOrderTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
+    <configuration name="IntegerListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab5.zad3.IntegerListTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
+          <option name="PATTERN" value="laboratoriski.lab5.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerListTest" />
+        <item itemvalue="Application.ComplexNumberTest" />
+        <item itemvalue="Application.ComplexNumberTest (1)" />
         <item itemvalue="Application.PizzaOrderTest" />
         <item itemvalue="Application.PizzaOrderTest (5)" />
-        <item itemvalue="Application.PizzaOrderTest (4)" />
-        <item itemvalue="Application.PizzaOrderTest (3)" />
-        <item itemvalue="Application.PizzaOrderTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,8 @@
       <workItem from="1669656492148" duration="14634000" />
       <workItem from="1669813986538" duration="12454000" />
       <workItem from="1669901756739" duration="14168000" />
-      <workItem from="1669977936048" duration="4788000" />
+      <workItem from="1669977936048" duration="5384000" />
+      <workItem from="1669994203455" duration="4604000" />
     </task>
     <servers />
   </component>
