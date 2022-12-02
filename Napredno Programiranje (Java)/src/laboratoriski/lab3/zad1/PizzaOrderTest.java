@@ -1,167 +1,189 @@
 package laboratoriski.lab3.zad1;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-import java.util.function.BiConsumer;
-import java.util.stream.IntStream;
 
-interface Item{
-    public int getPrice();
-
-    public String getType();
-}
-class ArrayIndexOutOfBoundsException extends Exception{
-    ArrayIndexOutOfBoundsException(int idx){
-        super(idx + "is out of bounds\n");
+class OrderLockedException extends Exception{
+    public OrderLockedException(String mess){
+        super(mess);
     }
 }
 
-class EmptyOrderException extends Exception{
-    EmptyOrderException(){
-        super("Nema elementi narackata\n");
+class EmptyOrder extends Exception{
+    public EmptyOrder(String mess){
+        super(mess);
     }
 }
-class ItemOutOfStockException extends Exception{
-    ItemOutOfStockException(Item item){
-        super(item.getType() + "is out of stock\n");
-    }
-}
-class InvalidPizzaTypeException extends Exception{
-    InvalidPizzaTypeException(){
-        super("Picata ja nema na menito\n");
+class ArrayIndexOutOfBоundsException extends Exception{
+    public ArrayIndexOutOfBоundsException(String mess){
+        super(mess);
     }
 }
 class InvalidExtraTypeException extends Exception{
-    InvalidExtraTypeException(){
-        super("Extra nema na menito\n");
+    public InvalidExtraTypeException(String mess) {
+        super(mess);
     }
 }
-class PizzaItem implements Item{
-    private String type;
 
-
-    public PizzaItem(String type) throws InvalidPizzaTypeException {
-        if(!type.equals("Standard") || !type.equals("Pepperoni") || !type.equals("Vegetarian")){
-            throw new InvalidPizzaTypeException();
-        }else {
-            this.type = type;
-        }
+class InvalidPizzaTypeException extends Exception{
+    public InvalidPizzaTypeException(String mess) {
+        super(mess);
     }
+}
 
-    public String getType() {
-        return type;
+class ItemOutOfStockException extends  Exception{
+    public ItemOutOfStockException(String mess){
+        super(mess);
     }
-
-    @Override
-    public int getPrice() {
-        if(type.equals("Standard")){
-            return 10;
-        }else if(type.equals("Pepperoni")){
-            return 12;
-        }else{
-            return 8;
-        }
-    }
-
+}
+interface Item{
+    int getPrice();
+    String getType();
+    int getCount();
+    void setCount(int count);
 }
 
 class ExtraItem implements Item{
     private String type;
+    private int count;
     public ExtraItem(String type) throws InvalidExtraTypeException {
-        if(!type.equals("Ketchup") || !type.equals("Coke")){
-            throw new InvalidExtraTypeException();
+        if(type.equals("Ketchup") || type.equals("Coke")){
+            this.type = type;
+            this.count=1;
+        }else{
+            throw new InvalidExtraTypeException("Nevaliden tip");
         }
-        this.type = type;
+    }
+    @Override
+    public int getPrice() {
+        switch(type){
+            case "Ketchup":
+                return count*3;
+            case "Coke":
+                return count*5;
+        }
+        return 0;
     }
 
+    @Override
     public String getType() {
         return type;
     }
 
     @Override
-    public int getPrice() {
-        if(type.equals("Ketchup")){
-            return 3;
+    public int getCount() {
+        return count;
+    }
+
+    @Override
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+
+}
+
+
+class PizzaItem implements Item{
+    private String type;
+    private int count;
+    public PizzaItem(String type) throws InvalidPizzaTypeException {
+        if(type.equals("Standard") || type.equals("Pepperoni") || type.equals("Vegetarian")){
+            this.type = type;
+            this.count = 1;
         }else{
-            return 5;
+            throw new InvalidPizzaTypeException("Nevaliden tip piza");
         }
     }
+
+    @Override
+    public int getPrice() {
+        switch (type){
+            case "Standard":
+                return count*10;
+            case "Pepperoni":
+                return count*12;
+            case "Vegetarian":
+                return count*8;
+        }
+        return 0;
+    }
+    @Override
+    public void setCount(int count) {
+        this.count = count;
+    }
+    @Override
+    public String getType() {
+        return type;
+    }
+
+    @Override
+    public int getCount() {
+        return count;
+    }
+
+
 }
 
 class Order{
-    private ArrayList<Item> items;
-    private int [] counts;
-    private boolean locked;
+    private List<Item> items;
+    boolean LOCK;
 
-    public Order(){
-        this.items = new ArrayList<>();
-        this.counts = new int[0];
-        this.locked = false;
+    public Order() {
+        items = new ArrayList<>();
+        LOCK = false;
     }
 
-    public void addItem(Item item, int count) throws ItemOutOfStockException {
+    public void addItem(Item item, int count) throws ItemOutOfStockException, OrderLockedException {
+        if(LOCK){
+            throw new OrderLockedException("Zakluceni");
+        }
+
         if(count>10){
-            throw new ItemOutOfStockException(item);
+            throw new ItemOutOfStockException(item.getType() + " is out of stock");
         }
-        int flag=0;
-        if(!locked) {
-            for (int i = 0; i < items.size(); i++) {
-                if (item.getType().equals(items.get(i).getType())) {
-                    items.set(i, item);
-                    counts[i] = count;
-                    flag = 1;
-                }
-            }
-            if (flag == 0) {
-                items.add(item);
-                int[] tmp = new int[counts.length + 1];
-                tmp[counts.length] = count;
-                counts = new int[counts.length + 1];
-                counts = tmp;
-            }
-        }
-    }
-    public int getPrice(){
-        int sum=0;
         for(int i=0;i< items.size();i++){
-            sum+=(items.get(i).getPrice() * counts[i]);
+            if(items.get(i).getType().equals(item.getType())){
+                items.set(i, item);
+                items.get(i).setCount(count);
+                return;
+            }
         }
-        return sum;
+        item.setCount(count);
+        items.add(item);
+    }
+
+    public long getPrice(){
+        return items.stream().mapToLong(Item::getPrice).sum();
     }
 
     public void displayOrder(){
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb =new StringBuilder();
         for(int i=0;i< items.size();i++){
-            sb.append("  ").append(i+1).append(items.get(i).getType()).append("\tx ")
-                    .append(counts[i]).append("   ").append(items.get(i).getPrice()).append("\n");
+            System.out.printf("%3d.%-15sx%2d%5d$\n", i+1, items.get(i).getType(), items.get(i).getCount(), items.get(i).getPrice());
         }
-        sb.append("Total:                                  ").append(getPrice()).append("\n");
-        sb.toString();
+        System.out.printf("%-22s%5d$\n", "Total:", getPrice());
     }
 
-    public void removeItem(int idx) throws ArrayIndexOutOfBoundsException {
-        if(counts.length<=idx){
-            throw new ArrayIndexOutOfBoundsException(idx);
+    public void removeItem(int idx) throws ArrayIndexOutOfBоundsException, OrderLockedException {
+        if(LOCK){
+            throw new OrderLockedException("Zakluceni");
         }
-        if(!locked) {
-            for (int i = idx - 1; i < items.size(); i++) {
-                items.set(i, items.get(i + 1));
-            }
-            items.set(items.size() - 1, null);
+        if(idx >= items.size()){
+            throw new ArrayIndexOutOfBоundsException(idx + " ne postoi");
         }
+        items.remove(idx);
     }
 
-    public void lock() throws EmptyOrderException {
-        if(counts.length==0){
-            throw new EmptyOrderException();
+    public void lock() throws EmptyOrder {
+        if(items.size()==0){
+            throw new EmptyOrder("Prazna lista");
         }
-        this.locked = true;
+        LOCK = true;
     }
 
 }
-
-
-
 
 
 public class PizzaOrderTest {

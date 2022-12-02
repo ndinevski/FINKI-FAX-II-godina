@@ -53,13 +53,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapesTest">
-    <configuration name="ShapesTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
+  <component name="RunManager" selected="Application.PizzaOrderTest">
+    <configuration name="PizzaOrderTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad14.*" />
+          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
+    <configuration name="PizzaOrderTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad14.*" />
+          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
+    <configuration name="PizzaOrderTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad14.*" />
+          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
+    <configuration name="PizzaOrderTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad14.*" />
+          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.zad14.ShapesTest" />
+    <configuration name="PizzaOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab3.zad1.PizzaOrderTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.zad14.*" />
+          <option name="PATTERN" value="laboratoriski.lab3.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShapesTest" />
-        <item itemvalue="Application.ShapesTest (5)" />
-        <item itemvalue="Application.ShapesTest (4)" />
-        <item itemvalue="Application.ShapesTest (3)" />
-        <item itemvalue="Application.ShapesTest (2)" />
+        <item itemvalue="Application.PizzaOrderTest" />
+        <item itemvalue="Application.PizzaOrderTest (5)" />
+        <item itemvalue="Application.PizzaOrderTest (4)" />
+        <item itemvalue="Application.PizzaOrderTest (3)" />
+        <item itemvalue="Application.PizzaOrderTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +162,7 @@
       <workItem from="1669656492148" duration="14634000" />
       <workItem from="1669813986538" duration="12454000" />
       <workItem from="1669901756739" duration="14168000" />
+      <workItem from="1669977936048" duration="4185000" />
     </task>
     <servers />
   </component>
@@ -196,26 +197,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>166</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
           <line>24</line>
           <option name="timeStamp" value="18" />
@@ -234,15 +215,6 @@
           <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
           <line>9</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
-          <line>168</line>
-          <properties class="laboratoriski.lab3.zad1.PizzaOrderTest" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
