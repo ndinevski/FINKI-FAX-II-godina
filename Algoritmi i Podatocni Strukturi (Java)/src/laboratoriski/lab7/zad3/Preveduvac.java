@@ -39,11 +39,11 @@ class Word implements Comparable<Word> {
 
 
 public class Preveduvac {
-    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bf.readLine());
-        OBHT<Word,String> map = new OBHT<Word,String>((int) (2*N));
+
+        OBHT<Word,String> map = new OBHT<Word,String>(151);
 
 
         for(int i=0;i<N;i++){
