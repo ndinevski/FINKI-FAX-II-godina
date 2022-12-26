@@ -145,24 +145,34 @@ class BTree<E> {
         return child;
     }
 
+    public BNode<E> successorInorder (BNode<E> node) {
+
+        if (node.rtag == '-')
+            return node.right;
+
+        BNode<E> tmp = node.right;
+        while (tmp.ltag != '-')
+            tmp = tmp.left;
+        return tmp;
+    }
+
 
 }
 
 public class ConsecutiveNumbers {
-
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws Exception {
-        int i,j,k;
+        int i, j, k;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
 
-
         BNode<Integer> nodes[] = new BNode[N];
         BTree<Integer> tree = new BTree<Integer>();
 
-        for (i=0;i<N;i++)
+        for (i = 0; i < N; i++)
             nodes[i] = null;
 
         for (i = 0; i < N; i++) {
@@ -182,11 +192,23 @@ public class ConsecutiveNumbers {
         }
 
         br.close();
+        System.out.println(evaluate(tree));
 
         // vasiot kod ovde
-
-
     }
-
+    public static boolean evaluate(BTree<Integer> tree) {
+        BNode<Integer> node = tree.head.left;
+        while (node.ltag == '+')
+            node = node.left;
+        BNode<Integer> succ = tree.successorInorder(node);
+        while (succ != tree.head) {
+            if ((succ.info - node.info) != 1)
+                return false;
+            node = succ;
+            succ = tree.successorInorder(node);
+        }
+        return true;
+    }
 }
+
 

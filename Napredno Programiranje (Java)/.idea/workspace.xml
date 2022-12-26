@@ -164,7 +164,7 @@
       <workItem from="1669901756739" duration="14168000" />
       <workItem from="1670529266606" duration="11000" />
       <workItem from="1671814159865" duration="7693000" />
-      <workItem from="1671963333536" duration="4613000" />
+      <workItem from="1671963333536" duration="5822000" />
     </task>
     <servers />
   </component>
@@ -303,7 +303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab6/zad2/IntegerListTest.java</url>
-          <line>33</line>
+          <line>30</line>
           <properties class="laboratoriski.lab6.zad2.IntegerList" method="shiftLeft">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
