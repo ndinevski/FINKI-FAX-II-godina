@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/n1xx1n/Desktop/Work/Programming/FINKI-FAX-II-godina/Algoritmi i Podatocni Strukturi (Java)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -53,13 +53,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntegerListTest (4)">
-    <configuration name="IntegerListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab6.zad2.IntegerListTest" />
+  <component name="RunManager" selected="Application.FootballTableTest (1)">
+    <configuration name="FootballTableTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab6.zad2.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerListTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab6.zad2.IntegerListTest" />
+    <configuration name="FootballTableTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab6.zad2.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerListTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab6.zad2.IntegerListTest" />
+    <configuration name="FootballTableTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab6.zad2.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerListTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab6.zad2.IntegerListTest" />
+    <configuration name="FootballTableTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab6.zad2.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab6.zad2.IntegerListTest" />
+    <configuration name="FootballTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laboratoriski.lab6.zad2.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntegerListTest (4)" />
-        <item itemvalue="Application.IntegerListTest (3)" />
-        <item itemvalue="Application.IntegerListTest (2)" />
-        <item itemvalue="Application.IntegerListTest (1)" />
-        <item itemvalue="Application.IntegerListTest" />
+        <item itemvalue="Application.FootballTableTest (1)" />
+        <item itemvalue="Application.FootballTableTest" />
+        <item itemvalue="Application.FootballTableTest (5)" />
+        <item itemvalue="Application.FootballTableTest (4)" />
+        <item itemvalue="Application.FootballTableTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +165,7 @@
       <workItem from="1670529266606" duration="11000" />
       <workItem from="1671814159865" duration="7693000" />
       <workItem from="1671963333536" duration="5822000" />
+      <workItem from="1672358013071" duration="2525000" />
     </task>
     <servers />
   </component>
@@ -219,22 +220,22 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>24</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>89</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>128</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>9</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -248,54 +249,54 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>135</line>
-          <properties class="kolokviumski.zad1.F1Race" method="readResults">
+          <properties class="kolokviumski.kol1.zad1.F1Race">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad1/F1Test.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>149</line>
-          <properties class="kolokviumski.zad1.F1Race" method="printSorted">
+          <properties class="kolokviumski.kol1.zad1.F1Race">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad15/DailyTemperatureTest.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad15/DailyTemperatureTest.java</url>
           <line>47</line>
-          <properties class="kolokviumski.zad15.Day" method="createDay">
+          <properties class="kolokviumski.kol1.zad15.Day" method="createDay">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad13/MinAndMax.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad13/MinAndMax.java</url>
           <line>5</line>
-          <properties class="kolokviumski.zad13.MinAndMax" method="main">
+          <properties class="kolokviumski.kol1.zad13.MinAndMax" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad14/ShapesTest.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad14/ShapesTest.java</url>
           <line>163</line>
-          <properties class="kolokviumski.zad14.Canvas" method="add">
+          <properties class="kolokviumski.kol1.zad14.Canvas">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/zad14/ShapesTest.java</url>
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad14/ShapesTest.java</url>
           <line>178</line>
-          <properties class="kolokviumski.zad14.Canvas" method="add">
+          <properties class="kolokviumski.kol1.zad14.Canvas">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

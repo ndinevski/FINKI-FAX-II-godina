@@ -1,11 +1,65 @@
 package kolokviumski.kol2.zad6;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+
+class Person{
+    private String city,code,name;
+    private int age;
+
+    public Person(String city, String code, String name, int age) {
+        this.city = city;
+        this.code = code;
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s %d", code, name, age);
+    }
+}
 
 class Audition{
-    
+    Map<String, Map<String, Person>> map;
+
+    public Audition() {
+        map = new HashMap<>();
+    }
+
+    void addParticpant(String city, String code, String name, int age){
+
+        Person newPerson = new Person(city,code,name,age);
+
+        map.putIfAbsent(city, new HashMap<>());
+
+        map.get(city).putIfAbsent(code, newPerson);
+
+    }
+
+    void listByCity(String city){
+        Comparator<Person> comparator = Comparator.comparing(Person::getName).thenComparing(Person::getAge);
+
+        map.get(city).values()
+                .stream()
+                .sorted(comparator)
+                .forEach(System.out::println);
+    }
 }
 
 
