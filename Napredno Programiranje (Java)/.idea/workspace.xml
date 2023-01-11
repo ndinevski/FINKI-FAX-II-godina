@@ -53,13 +53,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BooksTest">
-    <configuration name="BooksTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad5.BooksTest" />
+  <component name="RunManager" selected="Application.OnlineShopTest (1)">
+    <configuration name="OnlineShopTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad17.OnlineShopTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad5.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BooksTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad5.BooksTest" />
+    <configuration name="OnlineShopTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad17.OnlineShopTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad5.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootballTableTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
+    <configuration name="OnlineShopTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad17.OnlineShopTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootballTableTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
+    <configuration name="OnlineShopTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad17.OnlineShopTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootballTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
+    <configuration name="OnlineShopTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad17.OnlineShopTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BooksTest" />
-        <item itemvalue="Application.BooksTest (1)" />
-        <item itemvalue="Application.FootballTableTest (1)" />
-        <item itemvalue="Application.FootballTableTest" />
-        <item itemvalue="Application.FootballTableTest (5)" />
+        <item itemvalue="Application.OnlineShopTest (1)" />
+        <item itemvalue="Application.OnlineShopTest (5)" />
+        <item itemvalue="Application.OnlineShopTest (4)" />
+        <item itemvalue="Application.OnlineShopTest (3)" />
+        <item itemvalue="Application.OnlineShopTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +167,8 @@
       <workItem from="1671963333536" duration="5822000" />
       <workItem from="1672358013071" duration="2525000" />
       <workItem from="1672752809133" duration="2856000" />
+      <workItem from="1673349080171" duration="7000" />
+      <workItem from="1673445433393" duration="3446000" />
     </task>
     <servers />
   </component>
