@@ -21,7 +21,7 @@ public class Speluvanje {
         }
         StringBuilder sb = new StringBuilder();
         String [] text = br.readLine().split("\\s+");
-        
+
         if(text[0].charAt(0)=='.'){
             System.out.println("Bravo");
             return;
