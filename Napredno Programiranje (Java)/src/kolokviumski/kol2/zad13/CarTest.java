@@ -1,10 +1,76 @@
 package kolokviumski.kol2.zad13;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
+class Car{
+    private String manufacturer, model;
+    private int price;
+    private float power;
+
+    public Car(String manufacturer, String model, int price, float power) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.price = price;
+        this.power = power;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public float getPower() {
+        return power;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s (%.0fKW) %d", manufacturer, model, power, price);
+    }
+}
+
+
+class CarCollection{
+    Set<Car> cars;
+
+    public CarCollection() {
+        cars = new TreeSet<>(Comparator.comparing(Car::getPrice).thenComparing(Car::getPower));
+    }
+
+    public void addCar(Car car){
+        cars.add(car);
+    }
+
+    public void sortByPrice(boolean ascending){
+        if(!ascending){
+            Set<Car> sortedCars = new TreeSet<>(Comparator.comparing(Car::getPrice).thenComparing(Car::getPower).reversed());
+            sortedCars.addAll(cars);
+            cars = sortedCars;
+        }
+    }
+
+
+    public List<Car> filterByManufacturer(String manufacturer){
+        return cars.stream()
+                .filter(car-> car.getManufacturer().equalsIgnoreCase(manufacturer))
+                .sorted(Comparator.comparing(Car::getModel))
+                .collect(Collectors.toList());
+    }
+
+    public List<Car> getList(){
+        return new ArrayList<>(cars);
+    }
+
+
+}
 
 
 

@@ -144,15 +144,16 @@ class OnlineShop {
             return comparatorByPrice;
         } else if (comparatorType.equals(COMPARATOR_TYPE.HIGHEST_PRICE_FIRST)) {
             return comparatorByPrice.reversed();
+        }else if (comparatorType.equals(COMPARATOR_TYPE.LEAST_SOLD_FIRST)) {
+            return comparatorByQuantity;
+        }else if (comparatorType.equals(COMPARATOR_TYPE.MOST_SOLD_FIRST)){
+            return comparatorByQuantity.reversed();
         }else if (comparatorType.equals(COMPARATOR_TYPE.OLDEST_FIRST)) {
             return comparatorByDate;
         }else if (comparatorType.equals(COMPARATOR_TYPE.NEWEST_FIRST)) {
             return comparatorByDate.reversed();
-        }else if (comparatorType.equals(COMPARATOR_TYPE.LEAST_SOLD_FIRST)) {
-            return comparatorByQuantity;
-        }else{
-            return comparatorByQuantity.reversed();
         }
+        return null;
     }
 
     List<Product> sortList(List<Product> list, COMPARATOR_TYPE comparatorType){
