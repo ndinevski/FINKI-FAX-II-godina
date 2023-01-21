@@ -54,33 +54,7 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherApplication">
-    <configuration name="EventCalendarTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventCalendarTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TriviaGame">
     <configuration name="EventCalendarTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
@@ -107,6 +81,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab8.zad1.PatternTest" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratoriski.lab8.zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriviaGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab8.zad2.TriviaGame" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laboratoriski.lab8.zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad14.WeatherApplication" />
       <module name="Napredno Programiranje 2022-23" />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TriviaGame" />
+        <item itemvalue="Application.PatternTest" />
         <item itemvalue="Application.WeatherApplication" />
         <item itemvalue="Application.EventCalendarTest" />
         <item itemvalue="Application.EventCalendarTest (5)" />
-        <item itemvalue="Application.EventCalendarTest (4)" />
-        <item itemvalue="Application.EventCalendarTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +176,8 @@
       <workItem from="1674221206872" duration="6566000" />
       <workItem from="1674300745766" duration="3933000" />
       <workItem from="1674318312126" duration="3821000" />
+      <workItem from="1674324105260" duration="194000" />
+      <workItem from="1674325129807" duration="3929000" />
     </task>
     <servers />
   </component>
@@ -369,7 +371,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad14/WeatherApplication.java</url>
           <line>34</line>
-          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher" method="register">
+          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -378,7 +380,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad14/WeatherApplication.java</url>
           <line>38</line>
-          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher" method="remove">
+          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
