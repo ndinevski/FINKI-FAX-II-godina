@@ -58,7 +58,7 @@ class WrongDateException extends Exception{
 class EventCalendar{
     int year;
 
-    Map<Integer, Set<Event>> eventsByDay;
+    Map<String, Set<Event>> eventsByDay;
     Map<Integer, Integer> eventsInMonth;
 
     public EventCalendar(int year) {
@@ -71,21 +71,37 @@ class EventCalendar{
     }
     public void addEvent(String name, String location, Date date) throws WrongDateException {
         if(date.getYear()+1900!=year){
-            throw new WrongDateException(String.format("Wrong date: %s", date));
+            throw new WrongDateException(String.format("Wrong date: %s", dString(date)));
         }
 
         Event newEvent = new Event(name,location,date);
-        Integer day = date.getDay();
 
-//        eventsInMonth.putIfAbsent(date.getMonth()+1, 0);
+
+        String [] parts = date.toString().split("\\s+");
+        String day = parts[1] + parts[2];
+
         eventsInMonth.replace(date.getMonth()+1, eventsInMonth.get(date.getMonth()+1)+1);
 
         eventsByDay.putIfAbsent(day, new TreeSet<>(Comparator.comparing(Event::getDate).thenComparing(Event::getName)));
         eventsByDay.get(day).add(newEvent);
     }
 
+    private String dString(Date date) {
+        String [] parts = date.toString().split("\\s+");
+        return String.format("%s %s %s %s UTC %s", parts[0], parts[1], parts[2], parts[3], parts[5]);
+    }
+
     public void listEvents(Date date){
-        eventsByDay.get(date.getDay()).stream()
+        String [] parts = date.toString().split("\\s+");
+        String day = parts[1] + parts[2];
+
+
+        if(eventsByDay.get(day)==null){
+            System.out.println("No events on this day!");
+            return;
+        }
+
+        eventsByDay.get(day).stream()
                 .forEach(System.out::println);
     }
 

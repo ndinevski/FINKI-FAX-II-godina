@@ -54,13 +54,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarTest (2)">
-    <configuration name="CarTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad13.CarTest" />
+  <component name="RunManager" selected="Application.EventCalendarTest">
+    <configuration name="EventCalendarTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad13.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad13.CarTest" />
+    <configuration name="EventCalendarTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad13.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad13.CarTest" />
+    <configuration name="EventCalendarTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad13.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad12.FileSystemTest" />
+    <configuration name="EventCalendarTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad12.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad12.FileSystemTest" />
+    <configuration name="EventCalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad12.*" />
+          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarTest (2)" />
-        <item itemvalue="Application.CarTest (1)" />
-        <item itemvalue="Application.CarTest" />
-        <item itemvalue="Application.FileSystemTest" />
-        <item itemvalue="Application.FileSystemTest (3)" />
+        <item itemvalue="Application.EventCalendarTest" />
+        <item itemvalue="Application.EventCalendarTest (5)" />
+        <item itemvalue="Application.EventCalendarTest (4)" />
+        <item itemvalue="Application.EventCalendarTest (3)" />
+        <item itemvalue="Application.EventCalendarTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,8 @@
       <workItem from="1673713654539" duration="21000" />
       <workItem from="1674129443241" duration="11025000" />
       <workItem from="1674152821958" duration="11552000" />
-      <workItem from="1674221206872" duration="6551000" />
+      <workItem from="1674221206872" duration="6566000" />
+      <workItem from="1674300745766" duration="3933000" />
     </task>
     <servers />
   </component>
@@ -354,6 +355,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad2/WeatherStationTest.java</url>
+          <line>86</line>
+          <properties class="kolokviumski.kol2.zad2.WeatherStation" method="refreshMeasurements">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad2/WeatherStationTest.java</url>
+          <line>109</line>
+          <properties class="kolokviumski.kol2.zad2.WeatherStation" method="status">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
