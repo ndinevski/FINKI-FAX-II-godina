@@ -54,13 +54,13 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TriviaGame">
-    <configuration name="EventCalendarTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
+  <component name="RunManager" selected="Application.LabExercisesTest">
+    <configuration name="LabExercisesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.ispitni.zad9.LabExercisesTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
+          <option name="PATTERN" value="kolokviumski.ispitni.zad9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +68,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventCalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad3.EventCalendarTest" />
+    <configuration name="Lozinki (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lozinki" />
+      <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lozinki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lozinki" />
+      <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapSortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.ispitni.zad3.MapSortingTest" />
       <module name="Napredno Programiranje 2022-23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad3.*" />
+          <option name="PATTERN" value="kolokviumski.ispitni.zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,52 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab8.zad1.PatternTest" />
+    <configuration name="sss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sss" />
       <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laboratoriski.lab8.zad1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriviaGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratoriski.lab8.zad2.TriviaGame" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laboratoriski.lab8.zad2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad14.WeatherApplication" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.kol2.zad14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriviaGame" />
-        <item itemvalue="Application.PatternTest" />
-        <item itemvalue="Application.WeatherApplication" />
-        <item itemvalue="Application.EventCalendarTest" />
-        <item itemvalue="Application.EventCalendarTest (5)" />
+        <item itemvalue="Application.LabExercisesTest" />
+        <item itemvalue="Application.MapSortingTest" />
+        <item itemvalue="Application.sss" />
+        <item itemvalue="Application.Lozinki" />
+        <item itemvalue="Application.Lozinki (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +160,9 @@
       <workItem from="1674318312126" duration="3821000" />
       <workItem from="1674324105260" duration="194000" />
       <workItem from="1674325129807" duration="3929000" />
+      <workItem from="1674385975606" duration="12877000" />
+      <workItem from="1674402897732" duration="2155000" />
+      <workItem from="1674489903640" duration="2116000" />
     </task>
     <servers />
   </component>
@@ -250,6 +235,16 @@
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
           <line>9</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad1/SchedulerTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad4/TermFrequencyTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab3/zad1/PizzaOrderTest.java</url>
@@ -386,7 +381,75 @@
           </properties>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad1/SchedulerTest.java</url>
+          <line>47</line>
+          <properties class="laboratoriski.lab7.zad1.Scheduler" method="next">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad1/SchedulerTest.java</url>
+          <line>54</line>
+          <properties class="laboratoriski.lab7.zad1.Scheduler" method="last">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad3/ChatSystemTest.java</url>
+          <line>100</line>
+          <properties class="laboratoriski.lab7.zad3.ChatSystem" method="registerAndJoin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad3/ChatSystemTest.java</url>
+          <line>106</line>
+          <properties class="laboratoriski.lab7.zad3.ChatSystem" method="joinRoom">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad3/ChatSystemTest.java</url>
+          <line>80</line>
+          <properties class="laboratoriski.lab7.zad3.ChatSystem" method="register">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad3/ChatSystemTest.java</url>
+          <line>132</line>
+          <properties class="laboratoriski.lab7.zad3.ChatSystem" method="followFriend">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad3/ChatSystemTest.java</url>
+          <line>64</line>
+          <properties class="laboratoriski.lab7.zad3.ChatSystem" method="addRoom">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.TreeMap$Entry" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
