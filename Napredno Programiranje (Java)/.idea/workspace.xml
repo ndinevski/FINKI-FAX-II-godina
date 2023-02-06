@@ -54,49 +54,37 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LabExercisesTest">
-    <configuration name="LabExercisesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.ispitni.zad9.LabExercisesTest" />
-      <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.ispitni.zad9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lozinki (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lozinki" />
+  <component name="RunManager" selected="Application.WeatherApplication (4)">
+    <configuration name="WeatherApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherApplication" />
       <module name="Napredno Programiranje 2022-23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lozinki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lozinki" />
+    <configuration name="WeatherApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherApplication" />
       <module name="Napredno Programiranje 2022-23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapSortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kolokviumski.ispitni.zad3.MapSortingTest" />
+    <configuration name="WeatherApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherApplication" />
       <module name="Napredno Programiranje 2022-23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kolokviumski.ispitni.zad3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sss" />
+    <configuration name="WeatherApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherApplication" />
+      <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherApplication" />
       <module name="Napredno Programiranje 2022-23" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LabExercisesTest" />
-        <item itemvalue="Application.MapSortingTest" />
-        <item itemvalue="Application.sss" />
-        <item itemvalue="Application.Lozinki" />
-        <item itemvalue="Application.Lozinki (2)" />
+        <item itemvalue="Application.WeatherApplication (4)" />
+        <item itemvalue="Application.WeatherApplication (3)" />
+        <item itemvalue="Application.WeatherApplication (2)" />
+        <item itemvalue="Application.WeatherApplication (1)" />
+        <item itemvalue="Application.WeatherApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +151,7 @@
       <workItem from="1674385975606" duration="12877000" />
       <workItem from="1674402897732" duration="2155000" />
       <workItem from="1674489903640" duration="2116000" />
+      <workItem from="1674936589716" duration="208000" />
     </task>
     <servers />
   </component>
@@ -443,6 +432,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad4/TermFrequencyTest.java</url>
+          <line>49</line>
+          <properties class="laboratoriski.lab7.zad4.TermFrequency" method="fillMap">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

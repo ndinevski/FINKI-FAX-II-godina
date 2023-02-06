@@ -195,7 +195,7 @@ class Faculty {
 
     void printFirstNStudents(int n) {
         studentsById.values().stream()
-                        .sorted(Comparator.comparing(Student::getNumberOfCourses)
+                                .sorted(Comparator.comparing(Student::getNumberOfCourses)
                                 .thenComparing(Student::getAverage)
                                 .thenComparing(Student::getId).reversed())
                         .limit(n).forEach(p-> System.out.println(p.shortString()));
