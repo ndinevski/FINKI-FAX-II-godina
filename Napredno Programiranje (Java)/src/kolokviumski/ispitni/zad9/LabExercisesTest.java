@@ -90,7 +90,7 @@ class LabExercises{
 
         averagesByYear.entrySet().stream()
                 .forEach(entry->{
-                    statisticsYear.put(entry.getKey(), averagesByYear.get(entry.getKey()).stream()
+                    statisticsYear.put(entry.getKey(), entry.getValue().stream()
                             .mapToDouble(p->p).average().orElse(0.0));
                 });
         return statisticsYear;
