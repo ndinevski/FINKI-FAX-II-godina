@@ -162,7 +162,12 @@
       <workItem from="1674325129807" duration="3929000" />
       <workItem from="1674385975606" duration="12877000" />
       <workItem from="1674402897732" duration="2155000" />
-      <workItem from="1674489903640" duration="2116000" />
+      <workItem from="1674489903640" duration="2730000" />
+      <workItem from="1674549693159" duration="1668000" />
+      <workItem from="1674553308785" duration="69000" />
+      <workItem from="1676488399817" duration="23000" />
+      <workItem from="1676637230217" duration="25000" />
+      <workItem from="1676639577724" duration="1000" />
     </task>
     <servers />
   </component>
@@ -362,24 +367,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad14/WeatherApplication.java</url>
-          <line>34</line>
-          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/kol2/zad14/WeatherApplication.java</url>
-          <line>38</line>
-          <properties class="kolokviumski.kol2.zad14.WeatherDispatcher">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad1/SchedulerTest.java</url>
