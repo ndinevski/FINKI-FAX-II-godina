@@ -471,6 +471,8 @@ if __name__ == '__main__':
     goals = [(7,2),(7,3)]
     oponents = generate_oponents(opponents)
 
+
+
     if check_valid_game(man_pos,ball_pos,oponents):
         football = Football((man_pos, ball_pos), oponents, goals)
         print(breadth_first_graph_search(football).solution())

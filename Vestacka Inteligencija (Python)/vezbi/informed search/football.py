@@ -1,4 +1,5 @@
 import bisect
+import math
 
 """
 Дефинирање на класа за структурата на проблемот кој ќе го решаваме со пребарување.
@@ -17,6 +18,7 @@ class Problem:
         достапни од оваа состојба. Ако има многу следбеници, употребете
         итератор кој би ги генерирал следбениците еден по еден, наместо да
         ги генерирате сите одеднаш.
+
         :param state: дадена состојба
         :return:  речник од парови {акција : состојба} достапни од оваа
                   состојба
@@ -27,6 +29,7 @@ class Problem:
     def actions(self, state):
         """За дадена состојба state, врати листа од сите акции што може да
         се применат над таа состојба
+
         :param state: дадена состојба
         :return: листа на акции
         :rtype: list
@@ -36,6 +39,7 @@ class Problem:
     def result(self, state, action):
         """За дадена состојба state и акција action, врати ја состојбата
         што се добива со примена на акцијата над состојбата
+
         :param state: дадена состојба
         :param action: дадена акција
         :return: резултантна состојба
@@ -47,6 +51,7 @@ class Problem:
         на методот директно ја споредува state со self.goal, како што е
         специфицирана во конструкторот. Имплементирајте го овој метод ако
         проверката со една целна состојба self.goal не е доволна.
+
         :param state: дадена состојба
         :return: дали дадената состојба е целна состојба
         :rtype: bool
@@ -58,9 +63,10 @@ class Problem:
         state2 од состојбата state1 преку акцијата action, претпоставувајќи
         дека цената на патот до состојбата state1 е c. Ако проблемот е таков
         што патот не е важен, оваа функција ќе ја разгледува само состојбата
-        state2. Ако патот е важен, ќе ја разгледува цената c и можеби и
+        state2. Ако патот е важен, ќе ја разгледува цената c и можеби и
         state1 и action. Даденава имплементација му доделува цена 1 на секој
         чекор од патот.
+
         :param c: цена на патот до состојбата state1
         :param state1: дадена моментална состојба
         :param action: акција која треба да се изврши
@@ -71,9 +77,10 @@ class Problem:
         return c + 1
 
     def value(self):
-        """За проблеми на оптимизација, секоја состојба си има вредност.
+        """За проблеми на оптимизација, секоја состојба си има вредност. 
         Hill-climbing и сличните алгоритми се обидуваат да ја максимизираат
         оваа вредност.
+
         :return: вредност на состојба
         :rtype: float
         """
@@ -90,6 +97,7 @@ class Node:
     def __init__(self, state, parent=None, action=None, path_cost=0):
         """Креирај јазол од пребарувачкото дрво, добиен од parent со примена
         на акцијата action
+
         :param state: моментална состојба (current state)
         :param parent: родителска состојба (parent state)
         :param action: акција (action)
@@ -111,6 +119,7 @@ class Node:
 
     def expand(self, problem):
         """Излистај ги јазлите достапни во еден чекор од овој јазол.
+
         :param problem: даден проблем
         :return: листа на достапни јазли во еден чекор
         :rtype: list(Node)
@@ -121,6 +130,7 @@ class Node:
 
     def child_node(self, problem, action):
         """Дете јазел
+
         :param problem: даден проблем
         :param action: дадена акција
         :return: достапен јазел според дадената акција
@@ -133,6 +143,7 @@ class Node:
 
     def solution(self):
         """Врати ја секвенцата од акции за да се стигне од коренот до овој јазол.
+
         :return: секвенцата од акции
         :rtype: list
         """
@@ -140,6 +151,7 @@ class Node:
 
     def solve(self):
         """Врати ја секвенцата од состојби за да се стигне од коренот до овој јазол.
+
         :return: листа од состојби
         :rtype: list
         """
@@ -147,6 +159,7 @@ class Node:
 
     def path(self):
         """Врати ја листата од јазли што го формираат патот од коренот до овој јазол.
+
         :return: листа од јазли од патот
         :rtype: list(Node)
         """
@@ -176,17 +189,18 @@ class Node:
 
 class Queue:
     """Queue е апстрактна класа / интерфејс. Постојат 3 типа:
-        Stack(): Last In First Out Queue (стек).
-        FIFOQueue(): First In First Out Queue (редица).
-        PriorityQueue(order, f): Queue во сортиран редослед (подразбирливо,од најмалиот кон
+        Stack(): Last In First Out Queue (стек).
+        FIFOQueue(): First In First Out Queue (редица).
+        PriorityQueue(order, f): Queue во сортиран редослед (подразбирливо,од најмалиот кон
                                  најголемиот јазол).
-    """
+    """
 
     def __init__(self):
         raise NotImplementedError
 
     def append(self, item):
         """Додади го елементот item во редицата
+
         :param item: даден елемент
         :return: None
         """
@@ -194,6 +208,7 @@ class Queue:
 
     def extend(self, items):
         """Додади ги елементите items во редицата
+
         :param items: дадени елементи
         :return: None
         """
@@ -201,12 +216,14 @@ class Queue:
 
     def pop(self):
         """Врати го првиот елемент од редицата
+
         :return: прв елемент
         """
         raise NotImplementedError
 
     def __len__(self):
         """Врати го бројот на елементи во редицата
+
         :return: број на елементи во редицата
         :rtype: int
         """
@@ -214,6 +231,7 @@ class Queue:
 
     def __contains__(self, item):
         """Проверка дали редицата го содржи елементот item
+
         :param item: даден елемент
         :return: дали queue го содржи item
         :rtype: bool
@@ -312,188 +330,152 @@ class PriorityQueue(Queue):
                 self.data.pop(i)
 
 
-import sys
+from sys import maxsize as infinity
 
 """
-Неинформирано пребарување во рамки на дрво.
-Во рамки на дрвото не разрешуваме јамки.
+Информирано пребарување во рамки на граф
 """
 
 
-def tree_search(problem, fringe):
-    """ Пребарувај низ следбениците на даден проблем за да најдеш цел.
+def memoize(fn, slot=None):
+    """ Запамети ја пресметаната вредност за која била листа од
+    аргументи. Ако е специфициран slot, зачувај го резултатот во
+    тој slot на првиот аргумент. Ако slot е None, зачувај ги
+    резултатите во речник.
+
+    :param fn: зададена функција
+    :type fn: function
+    :param slot: име на атрибут во кој се чуваат резултатите од функцијата
+    :type slot: str
+    :return: функција со модификација за зачувување на резултатите
+    :rtype: function
+    """
+    if slot:
+        def memoized_fn(obj, *args):
+            if hasattr(obj, slot):
+                return getattr(obj, slot)
+            else:
+                val = fn(obj, *args)
+                setattr(obj, slot, val)
+                return val
+    else:
+        def memoized_fn(*args):
+            if args not in memoized_fn.cache:
+                memoized_fn.cache[args] = fn(*args)
+            return memoized_fn.cache[args]
+
+        memoized_fn.cache = {}
+    return memoized_fn
+
+
+def best_first_graph_search(problem, f):
+    """Пребарувај низ следбениците на даден проблем за да најдеш цел. Користи
+     функција за евалуација за да се одлучи кој е сосед најмногу ветува и
+     потоа да се истражи. Ако до дадена состојба стигнат два пата, употреби
+     го најдобриот пат.
+
     :param problem: даден проблем
     :type problem: Problem
-    :param fringe:  празна редица (queue)
-    :type fringe: FIFOQueue or Stack or PriorityQueue
+    :param f: дадена функција за евалуација (проценка)
+    :type f: function
     :return: Node or None
     :rtype: Node
     """
-    fringe.append(Node(problem.initial))
-    while fringe:
-        node = fringe.pop()
-        print(node.state)
+    f = memoize(f, 'f')
+    node = Node(problem.initial)
+    if problem.goal_test(node.state):
+        return node
+    frontier = PriorityQueue(min, f)
+    frontier.append(node)
+    explored = set()
+    while frontier:
+        node = frontier.pop()
         if problem.goal_test(node.state):
             return node
-        fringe.extend(node.expand(problem))
+        explored.add(node.state)
+        for child in node.expand(problem):
+            if child.state not in explored and child not in frontier:
+                frontier.append(child)
+            elif child in frontier:
+                incumbent = frontier[child]
+                if f(child) < f(incumbent):
+                    del frontier[incumbent]
+                    frontier.append(child)
     return None
 
 
-def breadth_first_tree_search(problem):
-    """Експандирај го прво најплиткиот јазол во пребарувачкото дрво.
+def greedy_best_first_graph_search(problem, h=None):
+    """ Greedy best-first пребарување се остварува ако се специфицира дека f(n) = h(n).
+
     :param problem: даден проблем
     :type problem: Problem
+    :param h: дадена функција за хевристика
+    :type h: function
     :return: Node or None
-    :rtype: Node
     """
-    return tree_search(problem, FIFOQueue())
+    h = memoize(h or problem.h, 'h')
+    return best_first_graph_search(problem, h)
 
 
-def depth_first_tree_search(problem):
-    """Експандирај го прво најдлабокиот јазол во пребарувачкото дрво.
+def astar_search(problem, h=None):
+    """ A* пребарување е best-first graph пребарување каде f(n) = g(n) + h(n).
+
     :param problem: даден проблем
     :type problem: Problem
+    :param h: дадена функција за хевристика
+    :type h: function
     :return: Node or None
-    :rtype: Node
     """
-    return tree_search(problem, Stack())
+    h = memoize(h or problem.h, 'h')
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
 
 
-"""
-Неинформирано пребарување во рамки на граф
-Основната разлика е во тоа што овде не дозволуваме јамки, 
-т.е. повторување на состојби
-"""
+def recursive_best_first_search(problem, h=None):
+    """Recursive best first search - ја ограничува рекурзијата
+    преку следење на f-вредноста на најдобриот алтернативен пат
+    од било кој јазел предок (еден чекор гледање нанапред).
 
-
-def graph_search(problem, fringe):
-    """Пребарувај низ следбениците на даден проблем за да најдеш цел.
-     Ако до дадена состојба стигнат два пата, употреби го најдобриот пат.
     :param problem: даден проблем
     :type problem: Problem
-    :param fringe:  празна редица (queue)
-    :type fringe: FIFOQueue or Stack or PriorityQueue
+    :param h: дадена функција за хевристика
+    :type h: function
     :return: Node or None
-    :rtype: Node
     """
-    closed = set()
-    fringe.append(Node(problem.initial))
-    while fringe:
-        node = fringe.pop()
+    h = memoize(h or problem.h, 'h')
+
+    def RBFS(problem, node, flimit):
         if problem.goal_test(node.state):
-            return node
-        if node.state not in closed:
-            closed.add(node.state)
-            fringe.extend(node.expand(problem))
-    return None
+            return node, 0  # (втората вредност е неважна)
+        successors = node.expand(problem)
+        if len(successors) == 0:
+            return None, infinity
+        for s in successors:
+            s.f = max(s.path_cost + h(s), node.f)
+        while True:
+            # Подреди ги според најниската f вредност
+            successors.sort(key=lambda x: x.f)
+            best = successors[0]
+            if best.f > flimit:
+                return None, best.f
+            if len(successors) > 1:
+                alternative = successors[1].f
+            else:
+                alternative = infinity
+            result, best.f = RBFS(problem, best, min(flimit, alternative))
+            if result is not None:
+                return result, best.f
+
+    node = Node(problem.initial)
+    node.f = h(node)
+    result, bestf = RBFS(problem, node, infinity)
+    return result
 
 
-def breadth_first_graph_search(problem):
-    """Експандирај го прво најплиткиот јазол во пребарувачкиот граф.
-    :param problem: даден проблем
-    :type problem: Problem
-    :return: Node or None
-    :rtype: Node
-    """
-    return graph_search(problem, FIFOQueue())
-
-
-def depth_first_graph_search(problem):
-    """Експандирај го прво најдлабокиот јазол во пребарувачкиот граф.
-    :param problem: даден проблем
-    :type problem: Problem
-    :return: Node or None
-    :rtype: Node
-    """
-    return graph_search(problem, Stack())
-
-
-def depth_limited_search(problem, limit=50):
-    """Експандирај го прво најдлабокиот јазол во пребарувачкиот граф
-    со ограничена длабочина.
-    :param problem: даден проблем
-    :type problem: Problem
-    :param limit: лимит за длабочината
-    :type limit: int
-    :return: Node or None
-    :rtype: Node
-    """
-
-    def recursive_dls(node, problem, limit):
-        """Помошна функција за depth limited"""
-        cutoff_occurred = False
-        if problem.goal_test(node.state):
-            return node
-        elif node.depth == limit:
-            return 'cutoff'
-        else:
-            for successor in node.expand(problem):
-                result = recursive_dls(successor, problem, limit)
-                if result == 'cutoff':
-                    cutoff_occurred = True
-                elif result is not None:
-                    return result
-        if cutoff_occurred:
-            return 'cutoff'
-        return None
-
-    return recursive_dls(Node(problem.initial), problem, limit)
-
-
-def iterative_deepening_search(problem):
-    """Експандирај го прво најдлабокиот јазол во пребарувачкиот граф
-    со ограничена длабочина, со итеративно зголемување на длабочината.
-    :param problem: даден проблем
-    :type problem: Problem
-    :return: Node or None
-    :rtype: Node
-    """
-    for depth in range(sys.maxsize):
-        result = depth_limited_search(problem, depth)
-        if result != 'cutoff':
-            return result
-
-
-def uniform_cost_search(problem):
-    """Експандирај го прво јазолот со најниска цена во пребарувачкиот граф.
-    :param problem: даден проблем
-    :type problem: Problem
-    :return: Node or None
-    :rtype: Node
-    """
-    return graph_search(problem, PriorityQueue(min, lambda a: a.path_cost))
-
-
-class Disk(Problem):
-
-    def __init__(self, initial, goal=None):
+class Football(Problem):
+    def __init__(self, initial, oponents, goals, goal=None):
         super().__init__(initial, goal)
-        self.goal_list = tuple(initial[::-1])
-
-    def successor(self, state):
-        successors = dict()
-        lista = list(state)
-
-
-        for i in range(len(lista)):
-            if(lista[i]!=0):
-                if i<len(lista)-1 and lista[i+1]==0:
-                    new_list = list(state)
-                    new_list[i],new_list[i+1] = new_list[i+1],new_list[i]
-                    successors["D1: Disk {}".format(lista[i])] = tuple(new_list)
-                if i<len(lista)-2 and lista[i+2]==0 and lista[i+1]!=0:
-                    new_list = list(state)
-                    new_list[i],new_list[i+2] = new_list[i+2],new_list[i]
-                    successors["D2: Disk {}".format(lista[i])] = tuple(new_list)
-                if i>0 and lista[i-1]==0:
-                    new_list = list(state)
-                    new_list[i], new_list[i-1] = new_list[i-1], new_list[i]
-                    successors["L1: Disk {}".format(lista[i])] = tuple(new_list)
-                if i>1 and lista[i-2]==0 and lista[i-1]!=0:
-                    new_list = list(state)
-                    new_list[i], new_list[i-2] = new_list[i-2], new_list[i]
-                    successors["L2: Disk {}".format(lista[i])] = tuple(new_list)
-        return successors
+        self.goals = goals
+        self.oponents = oponents
 
     def actions(self, state):
         return self.successor(state).keys()
@@ -502,14 +484,120 @@ class Disk(Problem):
         return self.successor(state)[action]
 
     def goal_test(self, state):
-        return self.goal_list == state
+        return state[1] in goals
+
+    def check_valid(self, man_pos, ball_pos, opponents):
+        return man_pos[0] >= 0 and man_pos[0] < 8 and \
+            man_pos[1] >= 0 and man_pos[1] < 6 and \
+            ball_pos[0] >= 0 and ball_pos[0] < 8 and \
+            ball_pos[1] >= 0 and ball_pos[1] < 6\
+            and ball_pos not in opponents \
+            and man_pos not in (opponents[0],opponents[9]) \
+            and man_pos!=ball_pos
 
 
-if __name__ == "__main__":
-    n = int(input())
-    l = int(input())
-    lista = [0 for i  in range(l)]
-    for i in range(n):
-        lista[i] = i+1
-    disk = Disk(tuple(lista))
-    print(breadth_first_graph_search(disk).solution())
+    def successor(self, state):
+        successors = dict()
+
+        man_pos_x = state[0][0]
+        man_pos_y = state[0][1]
+        ball_pos_x = state[1][0]
+        ball_pos_y = state[1][1]
+
+        man_pos = state[0]
+        ball_pos = state[1]
+
+        new_man_pos = man_pos_x, man_pos_y+1
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x, ball_pos_y + 1
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche gore"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka gore"] = (new_man_pos, new_ball_pos)
+
+        new_man_pos = man_pos_x, man_pos_y - 1
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x, ball_pos_y - 1
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche dolu"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka dolu"] = (new_man_pos, new_ball_pos)
+
+        new_man_pos = man_pos_x + 1, man_pos_y
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x + 1, ball_pos_y
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche desno"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka desno"] = (new_man_pos, new_ball_pos)
+
+        new_man_pos = man_pos_x + 1, man_pos_y - 1
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x + 1, ball_pos_y - 1
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche dolu-desno"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka dolu-desno"] = (new_man_pos, new_ball_pos)
+
+        new_man_pos = man_pos_x + 1, man_pos_y + 1
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x + 1, ball_pos_y + 1
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche gore-desno"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka gore-desno"] = (new_man_pos, new_ball_pos)
+
+        return successors
+
+    def h(self, node):
+        ball_pos = node.state[1]
+        closest_goal_y = min(self.goals[0][1]-ball_pos[1], self.goals[1][1]-ball_pos[1])
+        goal_x = min(self.goals[0][0] - ball_pos[0], self.goals[1][0]-ball_pos[0])
+        return max(goal_x,closest_goal_y)
+
+
+def check_valid_game(man_pos, ball_pos, oponents):
+    if ball_pos[1] in (0,5) or man_pos[0]>=ball_pos[0] or man_pos in (oponents[0],oponents[9]) or ball_pos in oponents:
+        return False
+    return True
+
+def generate_oponents(opponents):
+    oponents = []
+    for oponent in opponents:
+        oponents.append((oponent[0], oponent[1]))
+        oponents.append((oponent[0] + 1, oponent[1]))
+        oponents.append((oponent[0] + 1, oponent[1] + 1))
+        oponents.append((oponent[0] + 1, oponent[1] - 1))
+        oponents.append((oponent[0], oponent[1] - 1))
+        oponents.append((oponent[0], oponent[1] + 1))
+        oponents.append((oponent[0] - 1, oponent[1] - 1))
+        oponents.append((oponent[0] - 1, oponent[1]))
+        oponents.append((oponent[0] - 1, oponent[1] + 1))
+    return oponents
+
+if __name__ == '__main__':
+    man_pos = tuple(map(int, input().split(',')))
+    ball_pos = tuple(map(int, input().split(',')))
+
+    opponents = [(3, 3), (5, 4)]
+    goals = [(7,2),(7,3)]
+    oponents = generate_oponents(opponents)
+
+    if check_valid_game(man_pos,ball_pos,oponents):
+        football = Football((man_pos, ball_pos), oponents, goals)
+        print(astar_search(football).solution())

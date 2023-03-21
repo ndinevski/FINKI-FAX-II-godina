@@ -1,10 +1,5 @@
 import bisect
-
-"""
-Дефинирање на класа за структурата на проблемот кој ќе го решаваме со пребарување.
-Класата Problem е апстрактна класа од која правиме наследување за дефинирање на основните 
-карактеристики на секој проблем што сакаме да го решиме
-"""
+import sys
 
 
 class Problem:
@@ -312,14 +307,6 @@ class PriorityQueue(Queue):
                 self.data.pop(i)
 
 
-import sys
-
-"""
-Неинформирано пребарување во рамки на дрво.
-Во рамки на дрвото не разрешуваме јамки.
-"""
-
-
 def tree_search(problem, fringe):
     """ Пребарувај низ следбениците на даден проблем за да најдеш цел.
     :param problem: даден проблем
@@ -464,35 +451,84 @@ def uniform_cost_search(problem):
     return graph_search(problem, PriorityQueue(min, lambda a: a.path_cost))
 
 
-class Disk(Problem):
+class Hanoi(Problem):
 
     def __init__(self, initial, goal=None):
         super().__init__(initial, goal)
-        self.goal_list = tuple(initial[::-1])
 
     def successor(self, state):
         successors = dict()
-        lista = list(state)
+
+        towers = state
+        tower1 = list(towers[0])
+        tower2 = list(towers[1])
+        tower3 = list(towers[2])
+        new_tower1 = tower1[:]
+        new_tower2 = tower2[:]
+        new_tower3 = tower3[:]
 
 
-        for i in range(len(lista)):
-            if(lista[i]!=0):
-                if i<len(lista)-1 and lista[i+1]==0:
-                    new_list = list(state)
-                    new_list[i],new_list[i+1] = new_list[i+1],new_list[i]
-                    successors["D1: Disk {}".format(lista[i])] = tuple(new_list)
-                if i<len(lista)-2 and lista[i+2]==0 and lista[i+1]!=0:
-                    new_list = list(state)
-                    new_list[i],new_list[i+2] = new_list[i+2],new_list[i]
-                    successors["D2: Disk {}".format(lista[i])] = tuple(new_list)
-                if i>0 and lista[i-1]==0:
-                    new_list = list(state)
-                    new_list[i], new_list[i-1] = new_list[i-1], new_list[i]
-                    successors["L1: Disk {}".format(lista[i])] = tuple(new_list)
-                if i>1 and lista[i-2]==0 and lista[i-1]!=0:
-                    new_list = list(state)
-                    new_list[i], new_list[i-2] = new_list[i-2], new_list[i]
-                    successors["L2: Disk {}".format(lista[i])] = tuple(new_list)
+        #od prva vo vtora
+        if(len(tower1)!=0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower1[-1]
+            if len(tower2) == 0 or (len(tower2)!=0 and element<tower2[-1]):
+                new_tower2.append(element)
+                new_tower1.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 1 TO PILLAR 2"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+        #prva vo treta
+        if (len(tower1) != 0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower1[-1]
+            if len(tower3) == 0 or (len(tower3) != 0 and element < tower3[-1]):
+                new_tower3.append(element)
+                new_tower1.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 1 TO PILLAR 3"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+       #vtora vo treta
+        if (len(tower2) != 0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower2[-1]
+            if len(tower3) == 0 or (len(tower3) != 0 and element < tower3[-1]):
+                new_tower3.append(element)
+                new_tower2.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 2 TO PILLAR 3"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+        # vtora vo prva
+        if (len(tower2) != 0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower2[-1]
+            if len(tower1) == 0 or (len(tower1) != 0 and element < tower1[-1]):
+                new_tower1.append(element)
+                new_tower2.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 2 TO PILLAR 1"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+        #treta vo vtora
+        if (len(tower3) != 0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower3[-1]
+            if len(tower2) == 0 or (len(tower2) != 0 and element < tower2[-1]):
+                new_tower2.append(element)
+                new_tower3.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 3 TO PILLAR 2"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+        # treta vo prva
+        if (len(tower3) != 0):
+            new_tower1 = tower1[:]
+            new_tower2 = tower2[:]
+            new_tower3 = tower3[:]
+            element = tower3[-1]
+            if len(tower1) == 0 or (len(tower1) != 0 and element < tower1[-1]):
+                new_tower1.append(element)
+                new_tower3.pop()
+                successors["MOVE TOP BLOCK FROM PILLAR 3 TO PILLAR 1"] = (tuple(new_tower1), tuple(new_tower2), tuple(new_tower3))
+
         return successors
 
     def actions(self, state):
@@ -502,14 +538,58 @@ class Disk(Problem):
         return self.successor(state)[action]
 
     def goal_test(self, state):
-        return self.goal_list == state
+        return self.goal == state
+
 
 
 if __name__ == "__main__":
-    n = int(input())
-    l = int(input())
-    lista = [0 for i  in range(l)]
-    for i in range(n):
-        lista[i] = i+1
-    disk = Disk(tuple(lista))
-    print(breadth_first_graph_search(disk).solution())
+    str = input().split(";")
+    tower1 = str[0].split(",")
+    tower2 = str[1].split(",")
+    tower3 = str[2].split(",")
+
+    if tower1[0]=='':
+        tower1 = []
+    else:
+        tower1 = tuple(map(int, str[0].split(",")))
+
+    if tower2[0]=='':
+        tower2 = []
+    else:
+        tower2 = tuple(map(int, str[1].split(",")))
+
+    if tower3[0]=='':
+        tower3 = []
+    else:
+        tower3 = tuple(map(int, str[2].split(",")))
+
+
+    str = input().split(";")
+    tower1_g = str[0].split(",")
+    tower2_g = str[1].split(",")
+    tower3_g = str[2].split(",")
+
+    if tower1_g[0]=='':
+        tower1_g = []
+    else:
+        tower1_g = tuple(map(int, str[0].split(",")))
+
+    if tower2_g[0]=='':
+        tower2_g = []
+    else:
+        tower2_g = tuple(map(int, str[1].split(",")))
+
+    if tower3_g[0]=='':
+        tower3_g = []
+    else:
+        tower3_g = tuple(map(int, str[2].split(",")))
+
+
+
+    towers = (tuple(tower1),tuple(tower2),tuple(tower3))
+    goal_towers = (tuple(tower1_g),tuple(tower2_g),tuple(tower3_g))
+
+    hanoi = Hanoi(towers, goal_towers)
+    result = breadth_first_graph_search(hanoi).solution()
+    print(f"Number of action {len(result)}\n{result}")
+
