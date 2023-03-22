@@ -540,17 +540,6 @@ class Football(Problem):
             else:
                 successors["Turni topka desno"] = (new_man_pos, new_ball_pos)
 
-        new_man_pos = man_pos_x + 1, man_pos_y - 1
-        if new_man_pos == ball_pos:
-            new_ball_pos = ball_pos_x + 1, ball_pos_y - 1
-        else:
-            new_ball_pos = ball_pos
-        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
-            if new_ball_pos == ball_pos:
-                successors["Pomesti coveche dolu-desno"] = (new_man_pos, new_ball_pos)
-            else:
-                successors["Turni topka dolu-desno"] = (new_man_pos, new_ball_pos)
-
         new_man_pos = man_pos_x + 1, man_pos_y + 1
         if new_man_pos == ball_pos:
             new_ball_pos = ball_pos_x + 1, ball_pos_y + 1
@@ -562,13 +551,26 @@ class Football(Problem):
             else:
                 successors["Turni topka gore-desno"] = (new_man_pos, new_ball_pos)
 
+        new_man_pos = man_pos_x + 1, man_pos_y - 1
+        if new_man_pos == ball_pos:
+            new_ball_pos = ball_pos_x + 1, ball_pos_y - 1
+        else:
+            new_ball_pos = ball_pos
+        if self.check_valid(new_man_pos, new_ball_pos, self.oponents):
+            if new_ball_pos == ball_pos:
+                successors["Pomesti coveche dolu-desno"] = (new_man_pos, new_ball_pos)
+            else:
+                successors["Turni topka dolu-desno"] = (new_man_pos, new_ball_pos)
+
+
+
         return successors
 
     def h(self, node):
         ball_pos = node.state[1]
-        closest_goal_y = min(self.goals[0][1]-ball_pos[1], self.goals[1][1]-ball_pos[1])
+        furthest_goal_y = max(self.goals[0][1]-ball_pos[1], self.goals[1][1]-ball_pos[1])
         goal_x = min(self.goals[0][0] - ball_pos[0], self.goals[1][0]-ball_pos[0])
-        return max(goal_x,closest_goal_y)
+        return max(goal_x, furthest_goal_y)
 
 
 def check_valid_game(man_pos, ball_pos, oponents):
