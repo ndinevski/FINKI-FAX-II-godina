@@ -1,0 +1,12 @@
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\bin\Debug\Basket.exe.config
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\bin\Debug\Basket.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\bin\Debug\Basket.pdb
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.csproj.AssemblyReference.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.csproj.SuggestedBindingRedirects.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.form.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.formNewProduct.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.Properties.Resources.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.csproj.GenerateResource.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.csproj.CoreCompileInputs.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Basket\Basket\obj\Debug\Basket.pdb

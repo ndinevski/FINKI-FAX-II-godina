@@ -1,0 +1,13 @@
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\bin\Debug\Airport.exe.config
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\bin\Debug\Airport.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\bin\Debug\Airport.pdb
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.csproj.AssemblyReference.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.csproj.SuggestedBindingRedirects.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.fNewAirport.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.fAddDest.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.fAirport.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.Properties.Resources.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.csproj.GenerateResource.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.csproj.CoreCompileInputs.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\Airport\Airport\obj\Debug\Airport.pdb
