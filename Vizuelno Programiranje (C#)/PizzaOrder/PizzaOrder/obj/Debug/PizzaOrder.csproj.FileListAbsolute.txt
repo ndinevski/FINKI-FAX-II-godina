@@ -1,0 +1,11 @@
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.exe.config
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\bin\Debug\PizzaOrder.pdb
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.AssemblyReference.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.SuggestedBindingRedirects.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.Form1.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.Properties.Resources.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.GenerateResource.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.csproj.CoreCompileInputs.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\PizzaOrder\PizzaOrder\obj\Debug\PizzaOrder.pdb

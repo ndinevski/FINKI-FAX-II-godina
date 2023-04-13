@@ -482,7 +482,6 @@ class Pacman(Problem):
         pacmans = list(state[0])
         moving = list(state[1])
         new_moving = moving[:]
-        new_pacmans = pacmans[:]
 
         for pacman in pacmans:
 

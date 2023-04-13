@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="" />
+    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/4d0c3f5b-9845-4562-b637-a1ccf5e7358f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/6785ca34-268d-4514-a0ef-c8409e1fe760.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/a76c1aa9-4118-436b-b3db-b64188593c6f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/ce4bcc1b-6da1-4283-8ec5-9f5b9a7cf882.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/5fee8c03-5f07-4768-9e80-d07e2badb616.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/781059ae-c07a-4ed1-bbe2-32f430b4f46e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/a11e53bc-11e6-4cd9-a934-4aff5da8e992.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/d5d4f340-69b3-42b4-8e1d-d7791bc29850.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,6 +172,7 @@
       <workItem from="1678721407150" duration="595000" />
       <workItem from="1678974956679" duration="1618000" />
       <workItem from="1679569356274" duration="2847000" />
+      <workItem from="1681229712153" duration="473000" />
     </task>
     <servers />
   </component>
