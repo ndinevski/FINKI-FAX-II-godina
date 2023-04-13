@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/4d0c3f5b-9845-4562-b637-a1ccf5e7358f.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/6785ca34-268d-4514-a0ef-c8409e1fe760.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/a76c1aa9-4118-436b-b3db-b64188593c6f.vsidx" beforeDir="false" />
@@ -14,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/a11e53bc-11e6-4cd9-a934-4aff5da8e992.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/d5d4f340-69b3-42b4-8e1d-d7791bc29850.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../Vestacka Inteligencija (Python)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vestacka Inteligencija (Python)/.idea/misc.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +176,11 @@
       <workItem from="1678721407150" duration="595000" />
       <workItem from="1678974956679" duration="1618000" />
       <workItem from="1679569356274" duration="2847000" />
+<<<<<<< Updated upstream
       <workItem from="1681229712153" duration="473000" />
+=======
+      <workItem from="1680539007061" duration="625000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
