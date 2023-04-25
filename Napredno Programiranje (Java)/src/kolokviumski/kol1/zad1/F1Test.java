@@ -6,9 +6,8 @@ import java.util.Objects;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
 public class F1Test {
-
-
 
     public static void main(String[] args) {
         F1Race f1Race = new F1Race();
@@ -24,6 +23,8 @@ public class F1Test {
 class Lap{
     private String time;
     private int mm, ss, nnn;
+
+
 
     public Lap(String time) {
         this.time=time;

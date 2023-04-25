@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/4d0c3f5b-9845-4562-b637-a1ccf5e7358f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/6785ca34-268d-4514-a0ef-c8409e1fe760.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/a76c1aa9-4118-436b-b3db-b64188593c6f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/FileContentIndex/ce4bcc1b-6da1-4283-8ec5-9f5b9a7cf882.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/.vs/Airport/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Airport/Airport/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/5fee8c03-5f07-4768-9e80-d07e2badb616.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/781059ae-c07a-4ed1-bbe2-32f430b4f46e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/a11e53bc-11e6-4cd9-a934-4aff5da8e992.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/FileContentIndex/d5d4f340-69b3-42b4-8e1d-d7791bc29850.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Vizuelno Programiranje (C#)/Basket/.vs/Basket/v17/.suo" afterDir="false" />
-    </list>
+    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Operativni Sistemi (Java, C)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kolokviumski.kol2.zad7" />
@@ -67,22 +54,8 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountThree (1)">
+  <component name="RunManager" selected="Application.OSMidterm">
     <configuration name="CountThree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountThree" />
-      <module name="Napredno Programiranje 2022-23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountThree (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountThree" />
-      <module name="Napredno Programiranje 2022-23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountThree (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountThree" />
       <module name="Napredno Programiranje 2022-23" />
       <method v="2">
@@ -103,13 +76,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OSMidterm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OSMidterm" />
+      <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vinegar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vinegar" />
+      <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OSMidterm" />
+        <item itemvalue="Application.Vinegar" />
         <item itemvalue="Application.CountThree (1)" />
         <item itemvalue="Application.CountThree (5)" />
         <item itemvalue="Application.CountThree (4)" />
-        <item itemvalue="Application.CountThree (3)" />
-        <item itemvalue="Application.CountThree (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +160,11 @@
       <workItem from="1678974956679" duration="1618000" />
       <workItem from="1679569356274" duration="2847000" />
       <workItem from="1681229712153" duration="473000" />
+      <workItem from="1681862726406" duration="177000" />
+      <workItem from="1681864333860" duration="268000" />
+      <workItem from="1681928547505" duration="774000" />
+      <workItem from="1681933180741" duration="495000" />
+      <workItem from="1682434255687" duration="2539000" />
     </task>
     <servers />
   </component>
@@ -228,23 +220,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>128</line>
+          <line>129</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/laboratoriski/lab7/zad1/SchedulerTest.java</url>
@@ -267,7 +249,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>135</line>
+          <line>136</line>
           <properties class="kolokviumski.kol1.zad1.F1Race">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -276,7 +258,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/kolokviumski/kol1/zad1/F1Test.java</url>
-          <line>149</line>
+          <line>150</line>
           <properties class="kolokviumski.kol1.zad1.F1Race">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
