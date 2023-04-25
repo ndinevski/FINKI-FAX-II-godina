@@ -498,22 +498,24 @@ class GhostOnSkates(Problem):
         pacman_pos = state
 
         for i in range(1, 4):
+            # desno i
+            new_pacman = (pacman_pos[0] + i, pacman_pos[1])
+            if self.check_valid(new_pacman):
+                successors["Desno {}".format(i)] = new_pacman
+
             # gore i
             new_pacman = (pacman_pos[0], pacman_pos[1] + i)
             if self.check_valid(new_pacman):
                 successors["Gore {}".format(i)] = new_pacman
 
-            # desno i
-            new_pacman = (pacman_pos[0] + i, pacman_pos[1])
-            if self.check_valid(new_pacman):
-                successors["Desno {}".format(i)] = new_pacman
+
 
         return successors
 
     def h(self, node):
         pacman_pos = node.state
         m_distance = abs(pacman_pos[0] - self.goal[0]) + abs(pacman_pos[1] - self.goal[1])
-        return m_distance
+        return m_distance/3
 
 
 if __name__ == '__main__':
