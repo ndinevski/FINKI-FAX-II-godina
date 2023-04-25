@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="" />
+    <list default="true" id="205b2de8-48ad-42bb-a74c-4886485f57f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Operativni Sistemi (Java, C)/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Operativni Sistemi (Java, C)",
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Napredno Programiranje (Java)",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -54,15 +56,8 @@
       <recent name="laboratoriski.lab2.zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OSMidterm">
+  <component name="RunManager" selected="Application.FootballTableTest">
     <configuration name="CountThree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountThree" />
-      <module name="Napredno Programiranje 2022-23" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountThree (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountThree" />
       <module name="Napredno Programiranje 2022-23" />
       <method v="2">
@@ -72,6 +67,19 @@
     <configuration name="CountThree (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountThree" />
       <module name="Napredno Programiranje 2022-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FootballTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolokviumski.kol2.zad1.FootballTableTest" />
+      <module name="Napredno Programiranje 2022-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kolokviumski.kol2.zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FootballTableTest" />
         <item itemvalue="Application.OSMidterm" />
         <item itemvalue="Application.Vinegar" />
         <item itemvalue="Application.CountThree (1)" />
         <item itemvalue="Application.CountThree (5)" />
-        <item itemvalue="Application.CountThree (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +173,7 @@
       <workItem from="1681928547505" duration="774000" />
       <workItem from="1681933180741" duration="495000" />
       <workItem from="1682434255687" duration="2539000" />
+      <workItem from="1682438609684" duration="16000" />
     </task>
     <servers />
   </component>
