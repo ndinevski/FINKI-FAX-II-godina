@@ -1,0 +1,10 @@
+1.  init, vmtools, top, sh, migration, sshd, events, bash...
+
+2. posle top, koristime ps i se dobiva PID 12950 (pidof ne raboti)
+
+3.  /proc/12950/status, informacii za procesot kako ime, state, pid, ppid, tgid, memorija..
+
+4. pmap 12950, memoriska adresa, golemina, dozvoli,..
+
+5. kill -9 12950
+

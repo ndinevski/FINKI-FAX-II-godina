@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6b980d-6d2a-4875-bbbc-2448ed4ecc30" name="Changes" comment="" />
+    <list default="true" id="3e6b980d-6d2a-4875-bbbc-2448ed4ecc30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OvPFLxJmBeSNWrhBrg7zIH7YiG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,7 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Operativni Sistemi (Java, C)"
+    "last_opened_file_path": "D:/Work/Hacking and Programming/Programming/FINKI-FAX-II-godina/FINKI-FAX-II-godina/Operativni Sistemi (Java)"
   }
 }]]></component>
   <component name="RunManager">
@@ -65,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682437978598</updated>
-      <workItem from="1682438053341" duration="307000" />
+      <workItem from="1682438053341" duration="364000" />
+      <workItem from="1682438429015" duration="63000" />
     </task>
     <servers />
   </component>
