@@ -37,9 +37,9 @@ public class Vinegar {
 
         // for each thread, terminate it if it is not finished
         for (Thread thread : threads) {
-            if(!thread.isAlive()){
+            if(thread.isAlive()){
                 System.out.println("Possible deadlock!");
-                return;
+                thread.interrupt();
             }
         }
 
