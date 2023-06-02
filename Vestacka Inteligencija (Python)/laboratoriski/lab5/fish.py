@@ -190,6 +190,7 @@ if __name__ == "__main__":
     # Entry
     entry = [float(data) for data in input().split(' ')]
     entry = entry[:col_index] + entry[col_index+1:]
+
     print(classifier.predict([entry])[0])
 
     # Probabilities

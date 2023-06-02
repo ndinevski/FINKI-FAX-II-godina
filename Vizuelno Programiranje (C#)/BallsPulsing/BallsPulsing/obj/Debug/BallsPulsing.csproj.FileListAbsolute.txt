@@ -1,0 +1,11 @@
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\bin\Debug\BallsPulsing.exe.config
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\bin\Debug\BallsPulsing.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\bin\Debug\BallsPulsing.pdb
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.csproj.AssemblyReference.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.csproj.SuggestedBindingRedirects.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.Form1.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.Properties.Resources.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.csproj.GenerateResource.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.csproj.CoreCompileInputs.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsPulsing\BallsPulsing\obj\Debug\BallsPulsing.pdb
