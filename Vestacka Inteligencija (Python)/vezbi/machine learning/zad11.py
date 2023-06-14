@@ -109,8 +109,8 @@ if __name__ == '__main__':
     test_y = [x[-1] for x in test]
 
     classifier_nb = GaussianNB()
-    classifier_tr = DecisionTreeClassifier()
-    classifier_fr = RandomForestClassifier(3)
+    classifier_tr = DecisionTreeClassifier(random_state=0)
+    classifier_fr = RandomForestClassifier(3, random_state=0)
 
     classifier_nb.fit(train_x_nb, train_y_nb)
     classifier_tr.fit(train_x_tr, train_y_tr)

@@ -28,6 +28,5 @@ namespace Paint
             pen.Dispose();
         }
 
-
     }
 }

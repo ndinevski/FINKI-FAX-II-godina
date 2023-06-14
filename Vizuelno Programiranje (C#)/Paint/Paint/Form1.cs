@@ -47,7 +47,6 @@ namespace Paint
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             scene.Draw(e.Graphics);
-            Invalidate();
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)

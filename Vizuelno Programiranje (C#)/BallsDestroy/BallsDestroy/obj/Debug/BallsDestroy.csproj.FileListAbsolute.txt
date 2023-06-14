@@ -1,0 +1,11 @@
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\bin\Debug\BallsDestroy.exe.config
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\bin\Debug\BallsDestroy.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\bin\Debug\BallsDestroy.pdb
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.csproj.AssemblyReference.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.csproj.SuggestedBindingRedirects.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.Form1.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.Properties.Resources.resources
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.csproj.GenerateResource.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.csproj.CoreCompileInputs.cache
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.exe
+D:\Work\Hacking and Programming\Programming\FINKI-FAX-II-godina\FINKI-FAX-II-godina\Vizuelno Programiranje (C#)\BallsDestroy\BallsDestroy\obj\Debug\BallsDestroy.pdb
